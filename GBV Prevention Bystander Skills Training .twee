@@ -1,0 +1,871 @@
+:: StoryTitle
+"GBV Prevention: Bystander Skills Training
+
+
+:: StoryData
+{
+  "ifid": "58C72456-6CE9-4B1A-A78A-653594B97EE0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Resources Page",
+  "zoom": 1
+}
+
+
+:: Character Selection {"position":"662.5,750","size":"100,100"}
+### **Passage 3: Character Selection**
+
+(set: $skills to (dm:
+  "warningSigns", 0,
+  "directIntervention", 0,
+  "distraction", 0,
+  "supportSurvivor", 0,
+  "knowResources", 0
+))
+(set: $scenariosCompleted to 0)
+
+
+
+<h2>Choose Your Perspective</h2>
+
+Select a character to experience scenarios through their perspective. You can change characters later if you wish.
+
+---
+
+<div class="character-card">
+<h3>🎓 Alex Chen</h3>
+<strong>Background:</strong> International student, engineering major, resident advisor
+<strong>Perspective:</strong> Navigating cultural differences, campus leadership role
+
+[[Experience as Alex->Intro Alex]]
+</div>
+
+
+---
+
+<div class="character-card">
+<h3>🏃 Jordan Williams</h3>
+<strong>Background:</strong> Student athlete (soccer team), junior, active in campus life
+<strong>Perspective:</strong> Team dynamics, sports culture, male ally
+
+[[Experience as Jordan->Intro Jordan]]
+</div>
+
+---
+
+<div class="character-card">
+<h3>🎨 Sam Rivera</h3>
+<strong>Background:</strong> Art student, non-binary, involved in LGBTQ+ student group
+<strong>Perspective:</strong> Diverse identities, creative communities, advocacy
+
+[[Experience as Sam->Intro Sam]]
+</div>
+
+
+---
+
+
+:: Content {"position":"725,500","size":"100,100"}
+**Content:**
+
+<h1>🛡️ Bystander Skills Training</h1>
+
+<h3>Building a Safer Campus Together</h3>
+
+Welcome to this interactive training module. Over the next 20-30 minutes, you'll:
+
+- Practice recognizing concerning situations
+- Learn practical bystander intervention strategies  
+- Build confidence in taking action
+- Explore campus resources
+
+<div class="info-box">
+<strong>Important:</strong> You can pause at any time. Your progress is saved. This training includes realistic scenarios about gender-based violence prevention.
+</div>
+
+[[Continue->Content Warning]]
+
+---
+
+<small>Estimated time: 20-30 minutes | Self-paced</small>
+
+
+:: Content Warning {"position":"725,625","size":"100,100"}
+### **Passage 2: Content Warning**
+
+<h2>⚠️ Content Notice</h2>
+
+This module contains scenarios related to:
+- Alcohol and parties
+- Consent and relationships
+- Sexual harassment and assault prevention
+- Bystander intervention
+
+<div class="warning-box">
+<strong>Your Wellbeing Matters</strong>
+
+- You can pause or exit at any time
+- Skip specific scenarios if needed
+- Content is educational, not graphic
+- Campus resources are always available
+</div>
+
+<h3>Available Support:</h3>
+- Campus Counseling: [555-0123]
+- 24/7 Crisis Line: [555-0199]
+- Sexual Assault Support: [555-0156]
+
+[[I'm ready to begin->Character Selection]]
+
+[[Show me resources first->Resources Page]]
+
+
+:: Create a distraction (spill drink, fake urgent call, etc.)→S1 Distraction {"position":"600,1375","size":"100,100"}
+### **Passage: Distraction Path**
+
+**Passage Name:** Scenario 1 Distraction
+
+
+(set: $skills to $skills via "distraction", it + 1)
+(set: $skills to $skills via "warningSigns", it + 1)
+
+
+<h2>✅ Distraction Technique</h2>
+
+You quickly walk up and "accidentally" bump into them, spilling your drink slightly.
+
+<strong>You say:</strong> "Oh my god, I'm so sorry! Are you okay? Let me get you some napkins..."
+
+This creates enough disruption that the intoxicated person sits down on the stairs, and you're able to stay with them while the other person walks away looking frustrated.
+
+<div class="feedback-box">
+<h3>💪 Why This Worked:</h3>
+
+<strong>✓ Indirect interruption:</strong> Broke up the situation without direct confrontation
+
+<strong>✓ Created physical barrier:</strong> You positioned yourself between them
+
+<strong>✓ Gave time:</strong> Allowed the intoxicated person to reconsider
+
+<strong>✓ Low-risk approach:</strong> If you misjudged the situation, it's just an accident
+
+<h4>Other Distraction Techniques:</h4>
+- Fake phone call: "Your roommate needs you"
+- Ask for help: "Can you help me find my friend?"
+- Pretend you know them: "Oh hey! I didn't know you were here!"
+- Create commotion: Knock something over, start a game
+
+<h4>Remember:</h4>
+Distraction is great when you're uncomfortable with direct confrontation or want to minimize conflict.
+</div>
+
+<strong>Skill Earned:</strong> Distraction Techniques ⭐
+
+[[What happens next?->S1 Followup]]
+
+
+:: Dashboard Check {"position":"287.5,1875","size":"100,100"}
+<h2>📊 Your Skill Development</h2>
+
+<div class="dashboard">
+
+<h3>Bystander Intervention Skills:</h3>
+
+<div class="skill-item">
+<strong>🔍 Recognizing Warning Signs:</strong><br>
+(if: $skills's warningSigns > 0)[Level ($skills's warningSigns) ⭐]
+(else:)[Not yet developed]
+</div>
+
+<div class="skill-item">
+<strong>💬 Direct Intervention:</strong><br>
+(if: $skills's directIntervention > 0)[Level ($skills's directIntervention) ⭐]
+(else:)[Not yet developed]
+</div>
+
+<div class="skill-item">
+<strong>🎭 Distraction Techniques:</strong><br>
+(if: $skills's distraction > 0)[Level ($skills's distraction) ⭐]
+(else:)[Not yet developed]
+</div>
+
+<div class="skill-item">
+<strong>🤝 Supporting Survivors:</strong><br>
+(if: $skills's supportSurvivor > 0)[Level ($skills's supportSurvivor) ⭐]
+(else:)[Not yet developed]
+</div>
+
+<div class="skill-item">
+<strong>📍 Knowing Resources:</strong><br>
+(if: $skills's knowResources > 0)[Level ($skills's knowResources) ⭐]
+(else:)[Not yet developed]
+</div>
+
+<hr>
+<strong>Scenarios Completed:</strong> ($scenariosCompleted) / 5
+</div>
+
+[[Continue training->Scenario2 Setup]]
+[[View campus resources->Resources Page]]
+
+
+
+:: Intro Alex {"position":"662.5,875","size":"100,100"}
+Passage Name: Intro Alex
+
+(set: $character to "Alex")
+
+<h2>You are Alex Chen</h2>
+
+As an international student and RA, you're still learning about campus culture while also being responsible for your floor's wellbeing. You want to help create a safe community but sometimes worry about misunderstanding social situations.
+
+<strong>Your strengths:</strong> Observant, caring, responsible
+
+[[Begin Scenario 1->Scenario1 Setup]]
+
+
+:: Intro Jordan {"position":"600,1000","size":"100,100"}
+(set: $character to "Jordan")
+
+<h2>You are Jordan Williams</h2>
+
+Your teammates look up to you, and you've been thinking about what it means to be a good ally. You've seen some concerning behavior at team parties and want to know how to step up without making things awkward.
+
+<strong>Your strengths:</strong> Confident, influential, team-oriented
+
+[[Begin Scenario 1->Scenario1 Setup]]
+
+
+:: Intro Sam {"position":"725,1000","size":"100,100"}
+Passage Name: Intro Sam
+
+
+(set: $character to "Sam")
+
+<h2>You are Sam Rivera</h2>
+
+Through your work with the LGBTQ+ group, you know how important it is to look out for each other. You're comfortable speaking up but want to learn more effective strategies for different situations.
+
+<strong>Your strengths:</strong> Empathetic, aware, creative problem-solver
+
+[[Begin Scenario 1->Scenario1 Setup]]
+
+
+:: Resources Page {"position":"787.5,750","size":"100,100"}
+## **RESOURCES PAGE**
+
+Passage Name: Resources Page
+
+{
+  (if: $skills is 0)[
+    (set: $skills to (dm:
+      "warningSigns", 0,
+      "directIntervention", 0,
+      "distraction", 0,
+      "supportSurvivor", 0,
+      "knowResources", 0
+    ))
+  ]
+  (set: $skills to $skills + (dm: "knowResources", $skills's knowResources + 1))
+}
+
+
+<h2>📞 Campus & Community Resources</h2>
+
+<div class="resources-box">
+
+<h3>🆘 Immediate Help (24/7):</h3>
+- **Campus Security:** 555-0100
+- **Crisis Hotline:** 555-0199
+- **Sexual Assault Hotline:** 1-800-656-HOPE
+
+<h3>📍 On-Campus Support:</h3>
+- **Counseling Center:** Building A, Room 101 | 555-0123
+- **Student Health Services:** 555-0145
+- **Title IX Office:** 555-0167
+- **Dean of Students:** 555-0189
+
+<h3>🤝 Confidential Resources:</h3>
+- **Campus Advocate:** 555-0134 (confidential)
+- **Chaplain Services:** 555-0156 (confidential)
+
+<h3>💻 Online Resources:</h3>
+- RAINN: rainn.org
+- Know Your IX: knowyourix.org
+- Love Is Respect: loveisrespect.org
+
+<h3>📖 Reporting Options:</h3>
+- Anonymous reporting: [campus hotline]
+- Formal report: Title IX Office
+- Police report: Campus or local police
+
+</div>
+
+<em>Looking at resources counts toward your skill development!</em>
+
+[[Back to training->Dashboard Check]]
+
+
+:: S1 Direct Intervention {"position":"475,1375","size":"100,100"}
+### **Passage: Direct Intervention Path**
+
+Passage Name: S1 Direct Intervention
+
+
+(set: $skills to (datamap:
+    "warningSigns", $skills's "warningSigns" + 1,
+    "directIntervention", $skills's "directIntervention" + 1,
+    "distraction", $skills's "distraction",
+    "supportSurvivor", $skills's "supportSurvivor",
+    "knowResources", $skills's "knowResources"
+))
+
+
+<h2>✅ Direct Intervention</h2>
+
+You walk up to them at the base of the stairs.
+
+<strong>You say:</strong> "Hey! I think your friends were looking for you downstairs. Want to come hang with us?"
+
+The intoxicated person looks relieved and says "Oh yeah, okay." The other person looks annoyed but backs off.
+
+<div class="feedback-box">
+<h3>💪 Why This Worked:</h3>
+<strong>✓ Direct but non-confrontational:</strong> You intervened without accusing anyone
+
+<strong>✓ Gave an "out":</strong> Provided an easy, face-saving exit
+
+<strong>✓ Friendly tone:</strong> Didn't escalate the situation
+
+<strong>✓ Quick action:</strong> Intervened before they went upstairs
+
+<h4>Key Phrases That Work:</h4>
+- "Your friends are looking for you"
+- "Can I talk to you for a second?"
+- "Do you know where [bathroom/exit] is?"
+- "I think you dropped something downstairs"
+
+<h4>Remember:</h4>
+Trust your instincts. If someone seems too intoxicated to consent, that's a red flag worth acting on.
+</div>
+
+<strong>Skill Earned:</strong> Direct Intervention ⭐
+
+[[What happens next?->S1 Followup]]
+
+
+:: S1 Find Friends {"position":"600,1625","size":"100,100"}
+
+
+
+:: S1 Followup {"position":"475,1500","size":"100,100"}
+### Passage: Follow-up Decision
+
+Passage Name: S1 Followup
+
+
+<h3>The person is now safe with you and your friends.</h3>
+
+They're sitting down, drinking water. They seem embarrassed but grateful.
+
+<strong>They say:</strong> "I didn't realize I had that much to drink. Thanks for... yeah, thanks."
+
+<h3>What's your next step?</h3>
+
+[[Help them get home safely (call friend/rideshare)->S1 Get Home]]
+
+[[Stay with them until they feel better->S1 Stay With]]
+
+[[Find their friends for them->S1 Find Friends]]
+
+
+:: S1 Get Help {"position":"725,1375","size":"100,100"}
+### **Passage: Get Help Path**
+
+**Passage Name:** S1 Get Help
+
+
+(set: $skills to $skills via "directIntervention", it + 1)
+(set: $skills to $skills via "warningSigns", it + 1)
+
+<h2>✅ Delegated Intervention</h2>
+
+You quickly grab two friends from your group and explain what you saw.
+
+<strong>You say:</strong> "That person by the stairs looks really drunk and is being led upstairs. Can you help me check on them?"
+
+With three of you, you approach and your friend says, "Hey, we're heading out soon. Want to come with us to get food?"
+
+The intoxicated person agrees, and your group helps them get water and call a ride home.
+
+<div class="feedback-box">
+<h3>💪 Why This Worked:</h3>
+
+<strong>✓ Safety in numbers:</strong> Multiple people are less threatening and more effective
+
+<strong>✓ Distributed responsibility:</strong> Not all on you alone
+
+<strong>✓ More options:</strong> Different people can take different roles
+
+<strong>✓ Social proof:</strong> Harder for others to dismiss multiple people's concerns
+
+<h4>Who Can You Get Help From:</h4>
+- Friends in your group
+- Party host
+- Resident advisor (if on campus)
+- Sober monitor (if there is one)
+- Security or staff (at venues)
+
+<h4>What to Say:</h4>
+- "I'm worried about that person - can you help?"
+- "I think we should check on them"
+- "This doesn't feel right to me"
+
+<h4>Remember:</h4>
+Getting help is smart, not cowardly. Bystander intervention is more effective with multiple people.
+</div>
+
+<strong>Skill Earned:</strong> Direct Intervention ⭐
+
+[[What happens next?->S1 Followup]]
+
+
+:: S1 Get Home {"position":"350,1625","size":"100,100"}
+### Passage: Resolution Paths (Examples)
+
+Passage Name: S1 Get Home
+
+Content:
+
+(set: $skills's "supportSurvivor" to $skills's "supportSurvivor" + 1)
+
+<h2>✅ Ensuring Safety</h2>
+
+You help them call a trusted friend to pick them up. You wait with them outside until the friend arrives, make sure they get in the car safely, and exchange numbers "just to check in tomorrow."
+
+<div class="feedback-box">
+<h3>💪 Excellent Follow-Through:</h3>
+
+- Ensured they got home safely
+- Didn't leave them alone while vulnerable
+- Made sure someone trustworthy was with them
+- Set up check-in for tomorrow
+
+<h4>Remember:</h4>
+Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger.
+</div>
+
+<strong>Skill Earned:</strong> Supporting Survivors ⭐
+
+[[Complete Scenario 1->S1 Reflection]]
+
+
+:: S1 Observe {"position":"850,1375","size":"100,100"}
+### Passage: Observe Path
+
+Passage Name: S1 Observe
+
+(set: $skills to $skills via "warningSigns", it + 1)
+
+<h2>⚠️ Observing the Situation</h2>
+
+You watch for a moment to assess. The intoxicated person stumbles on the first stair. The other person catches them but continues leading them upward.
+
+As you watch, they disappear into a room upstairs. You're now uncertain what's happening and the moment for easy intervention has passed.
+
+<div class="feedback-box">
+<h3>🤔 What Happened Here:</h3>
+
+<strong>Why observation alone wasn't enough:</strong>
+
+✗ Window for intervention closed quickly
+✗ Person potentially in unsafe situation now
+✗ Harder to intervene once they're in a private space
+✗ You'd need to go upstairs, which is more confrontational
+
+<h4>When Observation IS Useful:</h4>
+- To gather information before acting
+- To identify the best approach
+- To see if others are already helping
+- <strong>But should be BRIEF (seconds, not minutes)</strong>
+
+<h4>What You Could Do Now:</h4>
+
+[[Go upstairs and knock on doors to check->S1 Observe Late Intervention]]
+
+[[Tell the party host what you saw->S1 Observe Tell Host]]
+
+[[Stay alert and check if they come back down->S1 Observe Wait]]
+
+</div>
+
+<strong>Learning Point:</strong> Trust your instincts and act quickly. Concern for safety > fear of awkwardness.
+
+
+:: S1 Observe Late Intervention {"position":"725,1500","size":"100,100"}
+
+
+
+:: S1 Observe Tell Host {"position":"850,1500","size":"100,100"}
+
+
+
+:: S1 Observe Wait {"position":"975,1500","size":"100,100"}
+
+
+
+:: S1 Reflection {"position":"350,1750","size":"100,100"}
+(set: $scenariosCompleted to $scenariosCompleted + 1)
+
+<h2>📝 Reflection: Scenario 1</h2>
+
+<div class="reflection-box">
+Take a moment to think about what you learned:
+
+<h3>Key Takeaways:</h3>
+- Quick action matters – intervene before situations escalate  
+- You don't need to be confrontational to be effective  
+- Multiple intervention strategies can work  
+- Following through ensures complete safety  
+
+<h3>Skills You Demonstrated:</h3>
+(if: $skills's "directIntervention" > 0)[✓ Direct Intervention]<br>
+(if: $skills's "distraction" > 0)[✓ Distraction Techniques]<br>
+(if: $skills's "warningSigns" > 0)[✓ Recognizing Warning Signs]<br>
+(if: $skills's "supportSurvivor" > 0)[✓ Supporting Others]<br>
+</div>
+
+<h3>Personal Reflection Questions:</h3>
+<em>(Take notes – you'll share these in your feedback form later)</em>
+
+1. How comfortable would you feel doing this in real life?  
+2. What surprised you about this scenario?  
+3. What other approaches might work?  
+
+[[View your progress dashboard->Dashboard Check]]
+
+[[Continue to Scenario 2->Scenario2 Setup]]
+
+
+:: S1 Stay With {"position":"475,1625","size":"100,100"}
+
+
+
+:: Scenario1 Decision1 {"position":"662.5,1250","size":"100,100"}
+### **Passage: First Decision Point**
+
+Passage Name: Scenario1 Decision1
+
+
+<h3>🤔 What do you do?</h3>
+
+<div class="choices">
+
+[[Directly approach and check if the intoxicated person is okay->S1 Direct Intervention]]
+
+[[Create a distraction (spill drink, fake urgent call, etc.)→S1 Distraction]]
+
+[[Get friends or the party host to help intervene->S1 Get Help]]
+
+[[Observe for a moment to assess the situation better->S1 Observe]]
+
+</div>
+
+<div class="tip">
+💡 <em>All of these could be valid depending on the situation. Think about what feels safest and most effective.</em>
+</div>
+
+
+:: Scenario1 Setup {"position":"662.5,1125","size":"100,100"}
+## **SCENARIO 1: COMPLETE BRANCHING STRUCTURE**
+
+### Passage: Scenario 1 Setup
+
+
+(set: $currentScenario to 1)
+
+<h2>📍 Scenario 1: House Party</h2>
+
+<div class="scenario-box">
+It's Friday night, and you're at an off-campus house party with about 30-40 people. Music is loud, people are drinking and dancing.
+
+You notice someone who appears very intoxicated - unsteady on their feet, slurred speech - being led upstairs by someone they seem to have just met. 
+
+Your friends are nearby in the living room, chatting and laughing.
+</div>
+
+<h3>What are you noticing?</h3>
+
+This could be a situation where someone's safety is at risk. You have several options for how to respond.
+
+[[Continue to decision point->Scenario1 Decision1]]
+
+
+:: Scenario2 Setup {"position":"412.5,1875","size":"100,100"}
+## **Scenario Templates (You Can Customize)**
+
+### **Scenario 2: Friend Disclosure**
+
+**Setup:**
+A friend confides in you that something happened at a party last weekend. They seem upset but unsure if they want to report it.
+
+**Decision Points:**
+- Listen and validate their feelings
+- Ask if they want help finding resources
+- Offer to go with them to counseling
+- Respect their timeline and choices
+
+**Skills:** Supporting survivors, knowing resources
+
+---
+
+### **Scenario 3: Group Chat**
+
+**Setup:**
+Your friend group chat has someone sharing inappropriate photos/comments about another student.
+
+**Decision Points:**
+- Speak up in the chat
+- Message the person privately
+- Report to admins
+- Leave the chat
+
+**Skills:** Direct intervention, digital bystander
+
+---
+
+### **Scenario 4: Consent Conversation**
+
+**Setup:**
+At a gathering, you overhear someone bragging about "convincing" someone to hook up.
+
+**Decision Points:**
+- Pull them aside for a conversation
+- Bring up consent in the group conversation
+- Check in with the other person involved
+- Report concerning behavior
+
+**Skills:** Direct intervention, consent education
+
+---
+
+### **Scenario 5: Campus Response**
+
+**Setup:**
+You witnessed something concerning and want to report it, but you're unsure what options you have.
+
+**Decision Points:**
+- Learn about anonymous reporting
+- Understand Title IX process
+- Explore confidential vs. non-confidential resources
+- Decide on your comfort level
+
+**Skills:** Knowing resources, institutional navigation
+
+
+:: Welcome {"position":"725,375","size":"100,100"}
+### **Passage 1: Welcome**
+<h1>🛡️ Bystander Skills Training</h1>
+
+<h3>Building a Safer Campus Together</h3>
+
+Welcome to this interactive training module. Over the next 20-30 minutes, you'll:
+
+- Practice recognizing concerning situations
+- Learn practical bystander intervention strategies  
+- Build confidence in taking action
+- Explore campus resources
+
+<div class="info-box">
+<strong>Important:</strong> You can pause at any time. Your progress is saved. This training includes realistic scenarios about gender-based violence prevention.
+</div>
+
+[[Click here to continue->Content]]
+
+
+:: StoryStylesheet [stylesheet]
+/* Color Scheme - Teal & Coral (Trust & Empowerment) */
+:root {
+    --primary: #277884;
+    --primary-light: #5EA8A7;
+    --secondary: #E8B4B8;
+    --surface: #FAF7F2;
+    --text: #2C2C2C;
+    --warning: #F4A261;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--surface);
+    color: var(--text);
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--primary);
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 4px solid var(--primary);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+/* Links/Choices */
+a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: inline-block;
+    margin: 5px 0;
+    border-left: 4px solid var(--primary);
+    background-color: white;
+    transition: all 0.3s;
+}
+
+a:hover {
+    background-color: var(--primary-light);
+    color: white;
+    transform: translateX(5px);
+}
+
+/* Boxes & Cards */
+.info-box {
+    background-color: #041f32;
+    border-left: 5px solid var(--primary);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.warning-box {
+    background-color: #b09231;
+    border-left: 5px solid var(--warning);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.feedback-box {
+    background-color: var(--primary-light);
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.feedback-box h3, .feedback-box h4 {
+    color: white;
+}
+
+.scenario-box {
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    border: 2px solid var(--primary);
+}
+
+.character-card {
+    background-color: #151515;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 2px solid var(--secondary);
+}
+
+.reflection-box {
+    background-color: var(--secondary);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.tip {
+    background-color: #2a2923;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* Dashboard */
+.dashboard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.skill-item {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #21194b;
+    border-left: 3px solid var(--primary);
+    border-radius: 4px;
+}
+
+/* Choices section */
+.choices {
+    margin: 20px 0;
+}
+
+.choices a {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+}
+
+.choices a:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: none;
+    border-color: var(--primary);
+}
+
+/* Resources */
+.resources-box {
+    background-color: #000000;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 3px solid var(--primary);
+}
+
+.resources-box h3 {
+    color: var(--primary);
+    margin-top: 20px;
+}
+
+/* Utility */
+hr {
+    border: none;
+    border-top: 2px solid var(--primary);
+    margin: 30px 0;
+}
+
+strong {
+    color: var(--primary);
+}
+
+small {
+    color: #666;
+}
