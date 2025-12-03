@@ -1,0 +1,1684 @@
+[
+  {
+    "persona_id": "Alex Chen",
+    "persona_background": "Chinese - ['Engineering student', 'Resident Advisor', 'International student leadership']",
+    "start_time": "2025-11-20T20:22:15.083386",
+    "character_selection": {
+      "character_selected": "Alex Chen",
+      "reasoning": "Since I am Alex Chen, an international student and resident advisor, choosing this character will allow me to engage with scenarios that reflect my real experiences and challenges. It will help me better understand how to navigate cultural differences and fulfill my leadership role effectively.",
+      "timestamp": "2025-11-20T20:22:25.754091"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "I would choose to get friends or the party host to help intervene because I am cautious and prefer a thoughtful, measured approach. As a resident advisor, I take my responsibilities seriously and believe involving others can ensure the intoxicated person's safety without causing unnecessary confrontation. This also respects cultural differences and helps create a safe space for everyone.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I would help the intoxicated person get home safely by calling a friend or arranging a rideshare. This approach is responsible and ensures their safety beyond just the immediate moment. It aligns with my cautious and thoughtful nature as a resident advisor who takes safety seriously and wants to create a secure environment for everyone.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 343
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I would listen without judgment and validate my friend's feelings because it aligns with my cautious and thoughtful nature. Creating a safe space for them to express themselves is important before suggesting any further steps. This approach respects their emotions and helps build trust, which is essential given my role as a resident advisor and my commitment to supporting others.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "I would offer to go with my friend to the counseling center because it shows that I am supportive and willing to help them through a difficult time. This approach aligns with my cautious and thoughtful nature, and it helps create a safe space for them. It respects their feelings while providing concrete assistance, which fits my role as a resident advisor.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 208
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "I would message the person sharing the inappropriate photos privately because it aligns with my cautious and thoughtful nature. This approach allows me to address the issue directly without escalating conflict in the group chat. It respects cultural differences and helps create a safe space while encouraging responsible behavior.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 186
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Pull them aside later for a private conversation",
+            "reasoning": "I would pull the person aside later for a private conversation because it aligns with my cautious and thoughtful nature. This approach allows me to address the issue without causing public confrontation, which fits my moderate comfort with confrontation. It also respects cultural differences and helps create a safe space for a meaningful discussion about consent.",
+            "feedback_received": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 369
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I would choose to learn about anonymous reporting options because it allows me to gather information safely and responsibly without immediate confrontation. This approach fits my cautious and thoughtful nature, helping me understand the consequences and options before taking further action. It aligns with my role as a resident advisor who wants to act carefully and effectively.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 250
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 4,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to assess situations carefully and choose a thoughtful intervention style. It related closely to my experiences as a resident advisor navigating social events and cultural differences. The approach was practical and respectful.",
+      "likely_strategy": "Delegation\nDelegation fits my personality and comfort level because I prefer involving others to help intervene rather than confronting directly. For example, at a party, I might ask friends or the host to assist if I notice something concerning.",
+      "what_worked": "Character choice allowing perspective-taking; diverse scenarios covering different contexts; clear, practical feedback; trauma-informed design ensuring emotional safety.",
+      "improvements": "Include more cultural nuances specific to international students; add scenarios involving more diverse identities; provide clearer instructions on some choices; offer additional resources for follow-up support.",
+      "cultural_relevance": "The training was generally inclusive of my background as an international student, showing awareness of cultural differences. However, deeper cultural considerations could enhance relevance and effectiveness.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially as an international student and resident advisor. The characters and dialogue reflected situations I might actually encounter on campus, though some cultural nuances could be deeper.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled with care, and trigger warnings were adequate. Nothing felt re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after choices was helpful and instructive, explaining why certain choices worked and offering alternatives. It taught practical strategies that I can apply in real life.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially international students and those in leadership roles like RAs. Some students who are very uncomfortable with confrontation might find it challenging but still useful.\n\n5. CONFIDENCE CHANGE: Rate: 4\nI feel more confident intervening as a bystander now, particularly in delegation and private conversations. Barriers remain around direct confrontation and cultural misunderstandings.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to assess situations carefully and choose a thoughtful intervention style. It related closely to my experiences as a resident advisor navigating social events and cultural differences. The approach was practical and respectful.\n\n7. LIKELY STRATEGY: Answer: Delegation\nDelegation fits my personality and comfort level because I prefer involving others to help intervene rather than confronting directly. For example, at a party, I might ask friends or the host to assist if I notice something concerning.\n\n8. WHAT WORKED WELL: Answer: Character choice allowing perspective-taking; diverse scenarios covering different contexts; clear, practical feedback; trauma-informed design ensuring emotional safety.\n\n9. IMPROVEMENTS NEEDED: Answer: Include more cultural nuances specific to international students; add scenarios involving more diverse identities; provide clearer instructions on some choices; offer additional resources for follow-up support.\n\n10. CULTURAL RELEVANCE: Answer: The training was generally inclusive of my background as an international student, showing awareness of cultural differences. However, deeper cultural considerations could enhance relevance and effectiveness."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:24:34.126278"
+  },
+  {
+    "persona_id": "Maria Santos",
+    "persona_background": "Brazilian - ['First-year business student', 'Learning campus culture', 'Building confidence']",
+    "start_time": "2025-11-20T20:24:34.126385",
+    "character_selection": {
+      "character_selected": "Alex Chen",
+      "reasoning": "I chose Alex Chen because as an international student, I can relate to navigating cultural differences, which is something I am experiencing. Also, the resident advisor role might help me learn how to support others and build my confidence in leadership.",
+      "timestamp": "2025-11-20T20:24:45.593266"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "I chose to get friends or the party host to help intervene because I feel more comfortable with indirect and supportive actions rather than direct confrontation. This way, I can still help the intoxicated person safely without putting myself in an uncomfortable situation. It also feels authentic to my shy and empathetic personality.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I chose to help the intoxicated person get home safely by calling a friend or rideshare because it feels like a responsible and caring way to ensure their safety. This approach fits my shy and empathetic personality, allowing me to support them without being too confrontational or overwhelming. It also aligns with my preference for indirect and supportive intervention.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 242
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I chose to listen without judgment and validate my friend's feelings because it feels most authentic to my shy and empathetic personality. This approach helps create a safe space for them to share more and feel supported without pressure. It aligns with my preference for indirect and supportive intervention, allowing me to be there for them gently.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "C",
+            "choice_text": "Respect their timeline and let them know you're here whenever they need",
+            "reasoning": "I chose to respect my friend's timeline and let them know I'm here whenever they need because it feels most authentic to my shy and empathetic personality. This approach supports them gently without pressure, which aligns with my preference for indirect and supportive intervention. It also allows me to be there for them in a way that feels comfortable for both of us.",
+            "feedback_received": "Excellent! Respecting their pace is crucial. Healing isn't linear, and they need to feel in control of their own process."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 237
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "I chose to message the person sharing the inappropriate content privately because it fits my shy and indirect style of intervention. This way, I can express my concerns without causing a confrontation in the group chat, which feels more comfortable for me. It also allows me to support the person being targeted in a subtle but meaningful way.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 215
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Pull them aside later for a private conversation",
+            "reasoning": "I chose to pull the person aside later for a private conversation because it fits my shy and indirect style of intervention. This way, I can express my concerns without causing a confrontation in front of others, which feels more comfortable for me. It also allows me to address the issue thoughtfully and supportively.",
+            "feedback_received": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 368
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Talk to a confidential resource (counselor, chaplain)",
+            "reasoning": "I chose to talk to a confidential resource like a counselor or chaplain because it feels like the safest and most supportive option for me. Given my shy and nervous personality, this approach allows me to get guidance without direct confrontation or overwhelming research. It aligns with my preference for indirect and supportive intervention and helps me understand my options better.",
+            "feedback_received": "Excellent! Confidential resources can help you process what you saw and explore options WITHOUT triggering mandatory reporting. They can guide you through choices."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 206
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 3,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to notice signs of intoxication and intervene safely without direct confrontation. It related to my experiences at social events and gave me practical, indirect ways to help.",
+      "likely_strategy": "Delegation\nDelegation fits my personality and comfort level because I prefer to involve others rather than confront situations directly. For example, at a party, I might ask friends or the host to help if I see something concerning.",
+      "what_worked": "- The gamification elements like character choice made the training engaging.\n- Scenario diversity covered different situations relevant to campus life.\n- The trauma-informed approach made me feel safe.\n- Clear feedback helped me understand my choices.",
+      "improvements": "- Include more diverse cultural perspectives and identities.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex situations.\n- Offer additional resources for further learning.",
+      "cultural_relevance": "The training felt somewhat inclusive of my background as an international student, but more cultural considerations could be added. For example, addressing language barriers or cultural differences in communication would be helpful.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially since they reflected situations I might actually encounter on campus as an international student. The characters and dialogue were mostly authentic, though sometimes the language felt a bit formal compared to how students usually talk.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled with care, and the trigger warnings were clear and helpful. I did not feel re-traumatized or that any content was insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after my choices was helpful and explained why certain choices worked or what alternatives existed. It taught me practical strategies, though sometimes I wished for more detailed explanations.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those new to campus or from diverse backgrounds. It might be less helpful for students who are already very confident in intervention or who prefer more direct confrontation.\n\n5. CONFIDENCE CHANGE: Rate: 3\nI feel somewhat more confident now in intervening as a bystander. Learning indirect and supportive strategies helped me, but I still feel nervous about confrontation and speaking up in English.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to notice signs of intoxication and intervene safely without direct confrontation. It related to my experiences at social events and gave me practical, indirect ways to help.\n\n7. LIKELY STRATEGY: Answer: Delegation\nDelegation fits my personality and comfort level because I prefer to involve others rather than confront situations directly. For example, at a party, I might ask friends or the host to help if I see something concerning.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice made the training engaging.\n- Scenario diversity covered different situations relevant to campus life.\n- The trauma-informed approach made me feel safe.\n- Clear feedback helped me understand my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more diverse cultural perspectives and identities.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex situations.\n- Offer additional resources for further learning.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training felt somewhat inclusive of my background as an international student, but more cultural considerations could be added. For example, addressing language barriers or cultural differences in communication would be helpful."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:27:25.565655"
+  },
+  {
+    "persona_id": "Yuki Tanaka",
+    "persona_background": "Japanese - ['Social Work graduate program', 'Trauma-informed practice', 'Cross-cultural counseling']",
+    "start_time": "2025-11-20T20:27:25.565737",
+    "character_selection": {
+      "character_selected": "Alex Chen",
+      "reasoning": "I choose Alex Chen because his perspective on navigating cultural differences and his role as a resident advisor align closely with my background in social work and my interest in cross-cultural counseling. This character allows me to engage with scenarios that emphasize collaboration and trauma-informed approaches, which are important to me.",
+      "timestamp": "2025-11-20T20:27:37.977197"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "I choose to get friends or the party host to help intervene because it aligns with my collaborative and supportive intervention style. This approach allows me to address the situation effectively while respecting my moderate comfort with confrontation. It also ensures that the intoxicated person receives appropriate care without escalating the situation unnecessarily.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "B",
+            "choice_text": "Stay with them until they feel better",
+            "reasoning": "I choose to stay with the intoxicated person until they feel better because it aligns with my collaborative and supportive intervention style. Staying with them ensures they have continuous care and monitoring, which is important in trauma-informed practice. It also respects their dignity and safety without rushing decisions that might not be in their best interest.",
+            "feedback_received": "Good choice! Staying with someone vulnerable shows care and ensures they're not left alone. This is part of complete bystander intervention."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 353
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I choose to listen without judgment and validate my friend's feelings because this approach aligns with my trauma-informed care knowledge and respectful personality. It creates a safe space for them to share and feel supported, which is essential before any further steps. This response respects their autonomy and fosters trust, which is crucial in collaborative support.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "C",
+            "choice_text": "Respect their timeline and let them know you're here whenever they need",
+            "reasoning": "I choose to respect my friend's timeline and let them know I'm here whenever they need because this approach honors their autonomy and readiness, which is essential in trauma-informed care. It aligns with my collaborative and supportive style, allowing them to feel safe and supported without pressure. This response fosters trust and respects their pace in seeking help.",
+            "feedback_received": "Excellent! Respecting their pace is crucial. Healing isn't linear, and they need to feel in control of their own process."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 369
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the group chat",
+            "reasoning": "I choose to speak up in the group chat because it directly addresses the inappropriate behavior and helps set clear boundaries, which aligns with my values of respect and trauma-informed care. This approach is collaborative and supportive, aiming to stop the harm while promoting a respectful environment. It also reflects my moderate comfort with confrontation and my belief in addressing issues openly to foster harmony.",
+            "feedback_received": "Bold move! Speaking up publicly can shift group norms. Example: 'This doesn't feel right. Would you want people sharing your photos like this?' It might feel awkward but can stop harmful behavior."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 408
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the moment about what consent means",
+            "reasoning": "I choose to speak up in the moment about what consent means because it directly challenges the harmful behavior and educates the group, which aligns with my trauma-informed and respectful approach. This intervention supports a culture of respect and helps those who are uncomfortable by addressing the issue openly. It also reflects my moderate comfort with confrontation and my preference for collaborative, supportive actions.",
+            "feedback_received": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 319
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Talk to a confidential resource (counselor, chaplain)",
+            "reasoning": "I choose to talk to a confidential resource like a counselor because this approach aligns with my trauma-informed, collaborative style and allows me to gather accurate information before taking further action. It respects the complexity of the situation and helps me understand the best way to support those involved without direct confrontation. This step feels authentic and responsible given my background and values.",
+            "feedback_received": "Excellent! Confidential resources can help you process what you saw and explore options WITHOUT triggering mandatory reporting. They can guide you through choices."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 202
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 5,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 4,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to assess a complex situation involving intoxication and potential risk. It related closely to real campus experiences and emphasized a trauma-informed, collaborative approach that felt practical and respectful.",
+      "likely_strategy": "Delegation\nDelegation fits my personality and comfort level as it allows me to involve others in intervention while maintaining a supportive role. For example, I might ask friends or a host to help if I notice someone at risk at a party.",
+      "what_worked": "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a broad range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear, constructive feedback helped reinforce learning.",
+      "improvements": "- Include more scenarios representing diverse cultural backgrounds.\n- Provide clearer instructions for some choices.\n- Add more nuanced options reflecting different intervention styles.\n- Offer additional resources for follow-up support.",
+      "cultural_relevance": "The training was generally inclusive of diverse cultural perspectives, but more explicit representation of different identities would enhance its relevance. Some cultural nuances could be better integrated to reflect varied communication styles and values.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially the situations involving cultural differences and group dynamics on campus. The characters and dialogue were authentic, reflecting common social interactions and challenges students might face.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. Sensitive topics were handled with care, and trigger warnings were clear and appropriate. There was no content that felt re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 5\nThe feedback after choices was very helpful and instructive. It explained why certain choices were effective and offered practical strategies for intervention, which enhanced my understanding.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those interested in social work or campus leadership roles. It might be less helpful for students who prefer less direct confrontation or have limited interest in social issues.\n\n5. CONFIDENCE CHANGE: Rate: 4\nI feel more confident now in intervening as a bystander, particularly in collaborative and supportive ways. Skills related to assessing situations and involving others increased my confidence. However, I still feel some barriers around direct confrontation in high-pressure situations.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to assess a complex situation involving intoxication and potential risk. It related closely to real campus experiences and emphasized a trauma-informed, collaborative approach that felt practical and respectful.\n\n7. LIKELY STRATEGY: Answer: Delegation\nDelegation fits my personality and comfort level as it allows me to involve others in intervention while maintaining a supportive role. For example, I might ask friends or a host to help if I notice someone at risk at a party.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a broad range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear, constructive feedback helped reinforce learning.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more scenarios representing diverse cultural backgrounds.\n- Provide clearer instructions for some choices.\n- Add more nuanced options reflecting different intervention styles.\n- Offer additional resources for follow-up support.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training was generally inclusive of diverse cultural perspectives, but more explicit representation of different identities would enhance its relevance. Some cultural nuances could be better integrated to reflect varied communication styles and values."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:30:34.252714"
+  },
+  {
+    "persona_id": "Jordan Williams",
+    "persona_background": "American - ['Junior on soccer team', 'Sport Management major', 'Team captain responsibilities']",
+    "start_time": "2025-11-20T20:30:34.252879",
+    "character_selection": {
+      "character_selected": "Jordan Williams",
+      "reasoning": "I chose Jordan Williams because he is a student athlete and team captain, which matches my background and personality. This perspective will help me understand team dynamics and sports culture better, and allow me to be an effective male ally during the training.",
+      "timestamp": "2025-11-20T20:30:52.780943"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Directly approach and check if the intoxicated person is okay",
+            "reasoning": "I would directly approach and check if the intoxicated person is okay because I am comfortable with confrontation and prefer a direct but friendly intervention style. As a team captain and male ally, I want to set a positive example and ensure the person's safety immediately. Waiting or creating distractions might delay help, and involving friends could be good, but I think acting right away is most effective and authentic to who I am.",
+            "feedback_received": "Direct intervention can be effective! You showed courage in speaking up. Key phrases that work: 'Hey, I think your friends are looking for you.' This respected everyone's dignity while creating a pause."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I would help the intoxicated person get home safely by calling a friend or arranging a rideshare. This aligns with my direct but friendly intervention style and high comfort with confrontation. Ensuring they get home safely is the most responsible and effective way to protect them beyond just the immediate moment. It also reflects my role as a team leader and ally, showing that I take action to support others.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 331
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I would listen without judgment and validate my friend's feelings because it's important to create a safe space for them to share. This approach aligns with my direct but friendly style and my goal to be a good ally. It helps build trust and lets them know they are supported without feeling pressured to take any immediate action.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "I would offer to go with my friend to the counseling center because it shows direct and active support, which fits my intervention style and comfort with confrontation. Being there with them can make the process less intimidating and demonstrates that I am a reliable ally. This approach feels authentic to me as a team leader who wants to support others effectively.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 288
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the group chat",
+            "reasoning": "I would speak up in the group chat because I am comfortable with confrontation and prefer a direct but friendly intervention style. Addressing the behavior publicly can help stop it immediately and set a positive example for others. This approach aligns with my role as a team leader and male ally, showing that I won't tolerate disrespectful behavior.",
+            "feedback_received": "Bold move! Speaking up publicly can shift group norms. Example: 'This doesn't feel right. Would you want people sharing your photos like this?' It might feel awkward but can stop harmful behavior."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 188
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the moment about what consent means",
+            "reasoning": "I would speak up in the moment about what consent means because I am comfortable with confrontation and prefer a direct but friendly intervention style. Addressing the behavior immediately helps educate others and sets a positive example as a team leader and male ally. This approach feels authentic to me and is likely the most effective in this social setting.",
+            "feedback_received": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 187
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I would learn about anonymous reporting options because it allows me to understand how to take responsible action without immediately confronting the situation. This approach fits my direct but friendly style and high comfort with confrontation, while also being cautious and respectful of privacy. Gaining this knowledge will help me decide the best way to support those involved effectively and safely.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 203
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 5,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 5,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 5,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to recognize concerning behavior in social settings and intervene directly but kindly. It related closely to my experiences as a team captain at parties and gave me practical approaches I can use.",
+      "likely_strategy": "Direct\nDirect intervention fits my personality and comfort level best because I am confident and want to set a positive example for my teammates. For example, I might directly check on someone who appears intoxicated at a party to ensure their safety.",
+      "what_worked": "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered different social contexts relevant to campus life.\n- The trauma-informed approach made me feel safe while learning.\n- Clear, practical feedback helped me understand the impact of my choices.",
+      "improvements": "- Include more diverse scenarios representing different cultural backgrounds.\n- Better representation of various gender identities and experiences.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex social dynamics.",
+      "cultural_relevance": "The training felt mostly inclusive of my background as an American student athlete, but it could improve by including more cultural perspectives and identities to better reflect campus diversity.",
+      "raw_response": "1. REALISM: Rate: 5\nThe scenarios felt very realistic and relatable, especially since they reflected situations I might actually encounter on campus as a student athlete and team leader. The characters and dialogue were authentic and captured the dynamics of social settings well.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled appropriately with adequate trigger warnings, and I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 5\nThe feedback after my choices was very helpful and instructive. It explained why my choices worked and offered practical alternative strategies, which helped me understand how to intervene effectively.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those involved in campus life and sports teams. It provides practical skills that are relevant to many students, though some might find it less helpful if they are not comfortable with confrontation.\n\n5. CONFIDENCE CHANGE: Rate: 5\nI feel much more confident now in intervening as a bystander. The training improved my skills in direct but friendly intervention and helped me understand how to balance assertiveness with approachability. I still worry about making situations awkward sometimes.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to recognize concerning behavior in social settings and intervene directly but kindly. It related closely to my experiences as a team captain at parties and gave me practical approaches I can use.\n\n7. LIKELY STRATEGY: Answer: Direct\nDirect intervention fits my personality and comfort level best because I am confident and want to set a positive example for my teammates. For example, I might directly check on someone who appears intoxicated at a party to ensure their safety.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered different social contexts relevant to campus life.\n- The trauma-informed approach made me feel safe while learning.\n- Clear, practical feedback helped me understand the impact of my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more diverse scenarios representing different cultural backgrounds.\n- Better representation of various gender identities and experiences.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex social dynamics.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training felt mostly inclusive of my background as an American student athlete, but it could improve by including more cultural perspectives and identities to better reflect campus diversity."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:33:47.194740"
+  },
+  {
+    "persona_id": "Marcus Johnson",
+    "persona_background": "American - ['Senior defensive player', 'Business major', 'Future in sports management']",
+    "start_time": "2025-11-20T20:33:47.194902",
+    "character_selection": {
+      "character_selected": "Jordan Williams",
+      "reasoning": "I\u2019m picking Jordan because he\u2019s a student athlete like me, and I get the whole team dynamics and sports culture. It\u2019s more straightforward and relevant to what I know, so I can handle the scenarios better without all that extra stuff I don\u2019t care about.",
+      "timestamp": "2025-11-20T20:33:59.222762"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Directly approach and check if the intoxicated person is okay",
+            "reasoning": "I\u2019m all about being direct and taking action, so I\u2019d go straight to the person and check if they\u2019re okay. Waiting or creating distractions just wastes time, and I\u2019m comfortable confronting situations head-on. Plus, involving others might slow things down, and I think handling it myself is the best way to make sure nothing bad happens.",
+            "feedback_received": "Direct intervention can be effective! You showed courage in speaking up. Key phrases that work: 'Hey, I think your friends are looking for you.' This respected everyone's dignity while creating a pause."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I\u2019d help them get home safely because that\u2019s the most direct and responsible thing to do. Staying with them is fine, but it doesn\u2019t solve the problem of getting them out of a risky situation. Finding their friends might take too long, and I prefer to take action myself to make sure they\u2019re safe.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 235
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Ask what they need right now and offer support",
+            "reasoning": "I\u2019d ask what they need right now and offer support because I\u2019m direct and want to help in a practical way. Listening is important, but I also want to know how I can actually assist them. This approach respects their feelings while pushing for action, which fits my style.",
+            "feedback_received": "Good! Centering their needs respects their autonomy. Every survivor's needs are different - some want resources, others just need someone to listen."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "I\u2019d offer to go with them to the counseling center because I\u2019m all about taking action and showing support directly. Just giving info feels like passing the buck, and I want to be there for my friend in a real way. Respecting their timeline is important, but I think being proactive is more helpful and fits who I am.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 239
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the group chat",
+            "reasoning": "I\u2019d speak up in the group chat because I\u2019m comfortable with confrontation and believe in addressing issues directly. Messaging privately might not stop the behavior publicly, and leaving the chat feels like avoiding the problem. Reporting could be too much unless things get worse. I want to make it clear that this kind of behavior isn\u2019t acceptable.",
+            "feedback_received": "Bold move! Speaking up publicly can shift group norms. Example: 'This doesn't feel right. Would you want people sharing your photos like this?' It might feel awkward but can stop harmful behavior."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 309
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the moment about what consent means",
+            "reasoning": "I\u2019d speak up right then and there about what consent really means because I\u2019m comfortable confronting things head-on. Letting it slide or waiting to talk later just lets the behavior keep going unchecked. Changing the subject feels like avoiding the problem, and reporting seems too much unless it gets worse. Being direct is how I handle stuff like this.",
+            "feedback_received": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 334
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I\u2019d start by learning about anonymous reporting options because it\u2019s a direct and practical way to figure out what I can do without getting tangled up in complicated stuff. I\u2019m skeptical about all this training, but I want to handle things efficiently. Talking to someone confidential or researching Title IX feels like too much for now, and confronting the person first might be risky without knowing everything.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 186
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 4,
+      "felt_safe_explain": "",
+      "helpful_feedback": 3,
+      "helpful_feedback_explain": "",
+      "would_recommend": 4,
+      "would_recommend_explain": "",
+      "confidence": 4,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it related closely to my experiences as a student athlete in social settings. It taught me practical ways to intervene directly and quickly, which fits my personality and comfort level.",
+      "likely_strategy": "Direct\nDirect intervention fits my personality perfectly since I\u2019m comfortable confronting issues head-on. For example, I\u2019d speak up immediately if I saw something wrong at a party or in a group chat.",
+      "what_worked": "- Character choice helped me relate better.\n- Scenario diversity covered relevant campus situations.\n- Trauma-informed approach made it feel safe.\n- Feedback after choices helped me understand consequences.",
+      "improvements": "- More diverse scenarios reflecting different cultural backgrounds.\n- Clearer instructions on some choices.\n- More nuanced options beyond just direct or indirect.\n- Additional resources for follow-up support.",
+      "cultural_relevance": "The training was somewhat inclusive but could do better representing diverse cultural perspectives, especially for international students or those outside typical campus groups. More cultural context would improve relevance.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt pretty realistic and relatable, especially the ones involving sports culture and party situations. The characters and dialogue were straightforward and authentic, which made it easier to engage.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 4\nI felt mostly safe and respected throughout the training. The trigger warnings were adequate, and the content was handled with care. Nothing felt overly re-traumatizing, though some parts could be a bit heavy.\n\n3. FEEDBACK QUALITY: Rate: 3\nThe feedback was helpful but sometimes felt a bit generic. It explained why choices worked but could have offered more practical strategies or alternatives.\n\n4. RECOMMENDATION: Rate: 4\nI\u2019d recommend this to students who are comfortable with direct confrontation and want practical intervention skills. It might be less helpful for those who prefer indirect approaches or are very sensitive to the topics.\n\n5. CONFIDENCE CHANGE: Rate: 4\nI feel more confident now, especially in handling party and group chat scenarios. The training reinforced my direct style but I still worry about potential backlash or social consequences.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it related closely to my experiences as a student athlete in social settings. It taught me practical ways to intervene directly and quickly, which fits my personality and comfort level.\n\n7. LIKELY STRATEGY: Answer: Direct\nDirect intervention fits my personality perfectly since I\u2019m comfortable confronting issues head-on. For example, I\u2019d speak up immediately if I saw something wrong at a party or in a group chat.\n\n8. WHAT WORKED WELL: Answer:\n- Character choice helped me relate better.\n- Scenario diversity covered relevant campus situations.\n- Trauma-informed approach made it feel safe.\n- Feedback after choices helped me understand consequences.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- More diverse scenarios reflecting different cultural backgrounds.\n- Clearer instructions on some choices.\n- More nuanced options beyond just direct or indirect.\n- Additional resources for follow-up support.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training was somewhat inclusive but could do better representing diverse cultural perspectives, especially for international students or those outside typical campus groups. More cultural context would improve relevance."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:37:00.593391"
+  },
+  {
+    "persona_id": "Kyle Anderson",
+    "persona_background": "American - ['Freshman athlete', 'Undecided major', 'Learning campus dynamics']",
+    "start_time": "2025-11-20T20:37:00.593465",
+    "character_selection": {
+      "character_selected": "Jordan Williams",
+      "reasoning": "Since I'm a freshman athlete on the basketball team, choosing Jordan Williams, a student athlete on the soccer team, makes the most sense. His perspective on team dynamics and sports culture aligns with what I'm experiencing, and I think it will help me learn how to be a better teammate and male ally.",
+      "timestamp": "2025-11-20T20:37:11.079734"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "I'm not super comfortable with confrontation, so getting my friends or the party host to help feels like the best way to intervene. It lets me do the right thing without putting myself in a tough spot, and I think it would be effective since more people can make sure the intoxicated person is safe.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I think helping the intoxicated person get home safely by calling a friend or rideshare is the best option. It makes sure they don't have to be alone and reduces any risks after the party. Staying with them is caring, but getting them home safely feels more responsible and effective, which fits with my desire to do the right thing.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 323
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I think the best thing to do is listen without judgment and validate my friend's feelings. It shows that I care and makes them feel safe to share more if they want. Since I'm still learning how to be a good teammate and support others, this feels like the most authentic and effective way to help right now.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "I think offering to go with my friend to the counseling center is the best way to show support. It might make them feel less alone and more comfortable seeking help. Since I want to do the right thing and be a good teammate, this feels like the most authentic and caring option for me.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 230
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "I'm not super comfortable with confrontation, so messaging the person sharing inappropriate photos privately feels like the best way to address the issue. It lets me express my concerns without causing a scene, which fits my personality and intervention style. Speaking up publicly or reporting might be too much for me right now, and leaving the chat seems like avoiding the problem.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 363
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Pull them aside later for a private conversation",
+            "reasoning": "I'm not super comfortable with confrontation, so pulling the person aside later for a private conversation feels like the best way to address the issue. It lets me talk to them directly without making a scene, which fits my personality and intervention style. Speaking up in the moment or reporting might be too much for me right now, and changing the subject avoids the problem.",
+            "feedback_received": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 346
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I think learning about anonymous reporting options is the best first step for me. It lets me understand what I can do without jumping into confrontation or overwhelming myself. Since I'm still figuring out how to handle these situations, this feels like the most manageable and responsible choice.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 359
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 3,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it showed me how to safely intervene when someone is intoxicated and potentially at risk. It related closely to my experiences and gave practical steps I could take without feeling overwhelmed.",
+      "likely_strategy": "Delegation\nDelegation fits my personality and comfort level best because I prefer to get others involved rather than confront directly. For example, at a party, I might ask friends or the host to help if I notice something concerning.",
+      "what_worked": "- The gamification elements like character choice made it engaging.\n- Scenario diversity covered different situations well.\n- The trauma-informed approach made me feel safe.\n- Clear feedback helped me understand my choices.",
+      "improvements": "- More diverse scenarios including different cultural backgrounds.\n- Better representation of various identities.\n- Clearer instructions at times.\n- Additional resources for follow-up support.",
+      "cultural_relevance": "The training felt somewhat inclusive but could do more to reflect diverse cultural perspectives, especially related to my background as a student athlete. Some cultural nuances were missing but overall it was respectful.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt pretty realistic and relatable, especially since they involved situations like parties and group chats that I might actually encounter on campus. The characters and dialogue seemed authentic, though sometimes it felt a bit scripted.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled carefully with appropriate trigger warnings, and nothing felt re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after my choices was helpful and explained why certain actions worked or what alternatives I could consider. It taught me practical strategies that I think I can use.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially athletes and those new to campus life. It might be less helpful for students who are already very confident in these areas.\n\n5. CONFIDENCE CHANGE: Rate: 3\nI feel somewhat more confident now in intervening as a bystander. Learning about different intervention styles helped, but I still feel some barriers due to my low comfort with confrontation.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it showed me how to safely intervene when someone is intoxicated and potentially at risk. It related closely to my experiences and gave practical steps I could take without feeling overwhelmed.\n\n7. LIKELY STRATEGY: Answer: Delegation\nDelegation fits my personality and comfort level best because I prefer to get others involved rather than confront directly. For example, at a party, I might ask friends or the host to help if I notice something concerning.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice made it engaging.\n- Scenario diversity covered different situations well.\n- The trauma-informed approach made me feel safe.\n- Clear feedback helped me understand my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- More diverse scenarios including different cultural backgrounds.\n- Better representation of various identities.\n- Clearer instructions at times.\n- Additional resources for follow-up support.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training felt somewhat inclusive but could do more to reflect diverse cultural perspectives, especially related to my background as a student athlete. Some cultural nuances were missing but overall it was respectful."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:40:08.580996"
+  },
+  {
+    "persona_id": "David Kim",
+    "persona_background": "Korean-American - ['Sophomore on swim team', 'Engineering major', 'Team diversity advocate']",
+    "start_time": "2025-11-20T20:40:08.581065",
+    "character_selection": {
+      "character_selected": "Alex Chen",
+      "reasoning": "I relate most to Alex because he is an engineering major like me and also deals with cultural differences as an international student. His role as a resident advisor aligns with my interest in leadership and strategic thinking, which will help me engage with practical and actionable scenarios.",
+      "timestamp": "2025-11-20T20:40:19.928867"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "I prefer a strategic and planned approach, so involving friends or the party host to help intervene feels like the safest and most effective option. It aligns with my moderate comfort with confrontation and ensures that the intoxicated person is protected without putting myself at unnecessary risk. This way, I can contribute to the intervention while leveraging teamwork, which fits my personality and values.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "Helping the intoxicated person get home safely is the most practical and responsible option. It aligns with my thoughtful and strategic personality, ensuring their safety beyond just the immediate moment. While staying with them or finding their friends are caring actions, facilitating a safe journey home is the most effective way to protect them in the long term.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 319
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I believe listening without judgment and validating my friend's feelings is the most important first step. It creates a safe space for them to share more and feel supported, which aligns with my thoughtful and strategic personality. This approach respects their emotional state and helps build trust before considering any further actions.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "Offering to go with my friend to the counseling center shows that I am supportive and willing to help them through a difficult step. It aligns with my thoughtful and strategic personality by providing practical assistance while respecting their comfort level. This approach balances my moderate comfort with confrontation and ensures they don't feel alone in seeking help.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 287
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "Messaging the person sharing inappropriate content privately allows me to address the issue directly without escalating conflict in the group chat. This approach fits my moderate comfort with confrontation and preference for strategic, planned interventions. It also respects the dynamics of the group while aiming to stop harmful behavior effectively.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 236
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the moment about what consent means",
+            "reasoning": "Speaking up in the moment about what consent means aligns with my thoughtful and strategic personality by addressing the issue directly and educating others. While it involves some confrontation, it's important to clarify boundaries and promote respect immediately. This approach is practical and actionable, fitting my moderate comfort with confrontation and desire for effective intervention.",
+            "feedback_received": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 294
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Research Title IX process",
+            "reasoning": "Researching the Title IX process aligns with my analytical and strategic personality, as it provides a clear framework and evidence-based understanding of reporting options and consequences. This approach allows me to make informed and practical decisions, which fits my preference for actionable strategies. While talking to a confidential resource is important, I want to first gather solid information to guide my next steps.",
+            "feedback_received": "Good! Understanding the formal process helps you make informed decisions. Title IX offices can explain options without requiring you to file a formal report immediately."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 330
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 4,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully and choose a safe, effective intervention strategy. It related closely to my experiences on campus and emphasized teamwork and practical action.",
+      "likely_strategy": "Delegation\nDelegation fits my personality and comfort level as it allows me to involve others and plan interventions strategically. For example, at a party, I might ask friends or the host to help intervene rather than confronting someone alone.",
+      "what_worked": "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a broad range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.",
+      "improvements": "- Include more scenarios representing diverse cultural backgrounds.\n- Provide clearer instructions for some choices.\n- Add more nuanced intervention options.\n- Offer additional resources for follow-up support.",
+      "cultural_relevance": "The training was fairly inclusive of my Korean-American background, especially through the character Alex Chen. However, more explicit cultural considerations could enhance relevance for diverse students.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially since they reflected situations that could happen on a university campus. The characters and dialogue were authentic, particularly Alex Chen's perspective as an international engineering student, which resonated with my own background.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled with care, and trigger warnings were clear and appropriate. I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after choices was helpful and instructive, explaining why certain choices worked and what alternatives existed. It taught practical strategies that I can apply in real situations.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those who want to develop strategic intervention skills. It might be less helpful for students who are uncomfortable with confrontation or prefer more direct approaches.\n\n5. CONFIDENCE CHANGE: Rate: 4\nI feel more confident now in intervening as a bystander, particularly due to learning about delegation and strategic planning. However, I still feel some barriers around confronting people directly in heated moments.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully and choose a safe, effective intervention strategy. It related closely to my experiences on campus and emphasized teamwork and practical action.\n\n7. LIKELY STRATEGY: Answer: Delegation\nDelegation fits my personality and comfort level as it allows me to involve others and plan interventions strategically. For example, at a party, I might ask friends or the host to help intervene rather than confronting someone alone.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a broad range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more scenarios representing diverse cultural backgrounds.\n- Provide clearer instructions for some choices.\n- Add more nuanced intervention options.\n- Offer additional resources for follow-up support.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training was fairly inclusive of my Korean-American background, especially through the character Alex Chen. However, more explicit cultural considerations could enhance relevance for diverse students."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:43:08.294037"
+  },
+  {
+    "persona_id": "Sam Rivera",
+    "persona_background": "American - ['Art student specializing in social justice themes', 'LGBTQ+ student group leadership', 'Peer counseling volunteer']",
+    "start_time": "2025-11-20T20:43:08.304290",
+    "character_selection": {
+      "character_selected": "Sam Rivera",
+      "reasoning": "As a non-binary art student involved in LGBTQ+ advocacy, choosing Sam Rivera allows me to engage with scenarios that reflect my own experiences and perspectives. This choice aligns with my identity and my commitment to diverse identities and creative communities.",
+      "timestamp": "2025-11-20T20:43:22.690544"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Directly approach and check if the intoxicated person is okay",
+            "reasoning": "I would directly approach and check if the intoxicated person is okay because I am comfortable with confrontation and prefer an empathetic and direct intervention style. This approach feels authentic to me as someone who advocates for protecting marginalized students and speaking up about injustice. I believe that immediate, direct engagement is the most effective way to ensure the person's safety in this situation.",
+            "feedback_received": "Direct intervention can be effective! You showed courage in speaking up. Key phrases that work: 'Hey, I think your friends are looking for you.' This respected everyone's dignity while creating a pause."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "B",
+            "choice_text": "Stay with them until they feel better",
+            "reasoning": "I would stay with the person until they feel better because it aligns with my empathetic and direct intervention style. Being present provides immediate support and ensures their safety, which is crucial for someone who is intoxicated. This approach feels authentic to me as someone who values protecting marginalized students and offering care through direct involvement.",
+            "feedback_received": "Good choice! Staying with someone vulnerable shows care and ensures they're not left alone. This is part of complete bystander intervention."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 251
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I would listen without judgment and validate their feelings because it aligns with my empathetic nature and peer counseling experience. Creating a safe space for my friend to share is crucial before offering further support or suggestions. This approach feels authentic to me and is likely the most effective first step in helping them.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "I would offer to go with my friend to the counseling center because it shows direct support and solidarity, which aligns with my empathetic and involved intervention style. Being there with them can help reduce their anxiety and make the process feel less intimidating. This approach feels authentic to me and is likely the most effective way to support my friend at this moment.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 387
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the group chat",
+            "reasoning": "I would speak up in the group chat because I am comfortable with confrontation and prefer a direct, empathetic intervention style. Addressing the inappropriate behavior openly aligns with my commitment to protecting marginalized students and speaking out against injustice. This approach feels authentic to me and is likely the most effective way to challenge harmful behavior in this context.",
+            "feedback_received": "Bold move! Speaking up publicly can shift group norms. Example: 'This doesn't feel right. Would you want people sharing your photos like this?' It might feel awkward but can stop harmful behavior."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 402
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the moment about what consent means",
+            "reasoning": "I would speak up in the moment about what consent means because I am comfortable with confrontation and prefer a direct, empathetic intervention style. Addressing the harmful attitude immediately can help educate others and challenge the normalization of coercion. This approach feels authentic to me and is likely the most effective way to promote respect and consent in this situation.",
+            "feedback_received": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 181
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I would learn about anonymous reporting options because it aligns with my preference for protecting marginalized students while ensuring safety and confidentiality. This approach allows me to take informed action without immediately confronting the situation directly, which feels authentic and responsible. It also empowers me to understand the consequences and options before deciding on further steps.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 374
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 5,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 5,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 5,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to recognize signs of intoxication and intervene directly and empathetically. It related closely to my experiences and provided practical approaches that feel authentic to me.",
+      "likely_strategy": "Direct\nDirect intervention fits my personality and comfort level best. I am likely to speak up immediately when I see concerning behavior, such as addressing inappropriate comments in a group setting.",
+      "what_worked": "Character choice reflecting diverse identities, realistic and varied scenarios, clear and constructive feedback, trauma-informed approach ensuring emotional safety.",
+      "improvements": "Include more scenarios involving intersectional identities, provide clearer instructions for some choices, add resources for ongoing support, enhance accessibility features.",
+      "cultural_relevance": "The training felt inclusive of my non-binary identity and advocacy work. Cultural perspectives were generally well-handled, though more representation of intersectional experiences would strengthen it further.",
+      "raw_response": "1. REALISM: Rate: 5\nThe scenarios felt very realistic and relatable, reflecting situations I might actually encounter on campus. The characters and dialogue were authentic, especially given the diverse identities and social dynamics portrayed.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. Sensitive topics were handled with care, and trigger warnings were adequate. I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 5\nThe feedback after my choices was very helpful and instructive. It clearly explained why my choices worked and offered alternative strategies, teaching practical skills I can apply.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those involved in advocacy or leadership roles. It might be less helpful for students who are uncomfortable with confrontation or sensitive topics.\n\n5. CONFIDENCE CHANGE: Rate: 5\nI feel much more confident intervening as a bystander now. The training improved my skills in direct intervention and empathetic communication. Barriers remain around assessing safety in complex situations.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to recognize signs of intoxication and intervene directly and empathetically. It related closely to my experiences and provided practical approaches that feel authentic to me.\n\n7. LIKELY STRATEGY: Answer: Direct\nDirect intervention fits my personality and comfort level best. I am likely to speak up immediately when I see concerning behavior, such as addressing inappropriate comments in a group setting.\n\n8. WHAT WORKED WELL: Answer: Character choice reflecting diverse identities, realistic and varied scenarios, clear and constructive feedback, trauma-informed approach ensuring emotional safety.\n\n9. IMPROVEMENTS NEEDED: Answer: Include more scenarios involving intersectional identities, provide clearer instructions for some choices, add resources for ongoing support, enhance accessibility features.\n\n10. CULTURAL RELEVANCE: Answer: The training felt inclusive of my non-binary identity and advocacy work. Cultural perspectives were generally well-handled, though more representation of intersectional experiences would strengthen it further."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:46:05.642198"
+  },
+  {
+    "persona_id": "Taylor Kim",
+    "persona_background": "American - ['Fine Arts major', 'Photography focus', 'Queer student alliance member']",
+    "start_time": "2025-11-20T20:46:05.642260",
+    "character_selection": {
+      "character_selected": "Sam Rivera",
+      "reasoning": "Sam Rivera aligns closely with my identity as a non-binary person and my involvement in the LGBTQ+ student group. Also, being an art student like me, this character's perspective on diverse identities and creative communities fits well with my background and interests.",
+      "timestamp": "2025-11-20T20:46:15.547771"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Create a distraction (spill drink, fake urgent call)",
+            "reasoning": "I prefer creative and indirect approaches to confrontation, so creating a distraction like spilling a drink or faking an urgent call feels more authentic to me. It allows me to intervene without direct confrontation, which aligns with my comfort level and personality. This approach can also effectively draw attention and potentially prevent harm without escalating the situation.",
+            "feedback_received": "Distraction is great when you're uncomfortable with direct confrontation. You created a physical barrier and gave time for reconsideration. Low-risk approach that still interrupts the situation."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "Helping the person get home safely feels like the most responsible and caring action I can take, which aligns with my quiet but deep care for others. It also fits my thoughtful and introverted nature by ensuring their safety without needing to be overly confrontational or intrusive. This approach feels authentic and effective in this situation.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "distraction",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 386
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I believe listening without judgment and validating my friend's feelings is the most authentic and supportive response. It aligns with my introverted and thoughtful nature, allowing me to provide care quietly and respectfully. This approach helps create a safe space for my friend to open up without feeling pressured or confronted.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "C",
+            "choice_text": "Respect their timeline and let them know you're here whenever they need",
+            "reasoning": "Respecting my friend's timeline and letting them know I'm here whenever they need feels most authentic to me. It aligns with my introverted and thoughtful nature, allowing me to provide quiet but steady support without pressuring them. This approach helps maintain trust and gives them space to decide when they're ready.",
+            "feedback_received": "Excellent! Respecting their pace is crucial. Healing isn't linear, and they need to feel in control of their own process."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 220
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "Messaging the person sharing inappropriate content privately feels like the most authentic and comfortable approach for me. It allows me to address the issue without causing public confrontation, which aligns with my introverted and thoughtful nature. This way, I can express my concerns creatively and indirectly, hoping to influence their behavior without escalating the situation.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 358
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Pull them aside later for a private conversation",
+            "reasoning": "Pulling the person aside later for a private conversation feels most authentic to me as it aligns with my introverted and thoughtful nature. It allows me to address the issue without direct confrontation in front of others, which fits my preference for creative and indirect intervention. This approach also respects the discomfort of others present and provides a chance for a meaningful dialogue.",
+            "feedback_received": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 288
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "Learning about anonymous reporting options feels like the most authentic and manageable first step for me. It aligns with my introverted and thoughtful nature by allowing me to gather information quietly without immediate confrontation. This approach helps me understand the consequences and options before deciding on further action.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 267
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 2,
+      "distraction": 1,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 3,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to creatively intervene in a situation where someone is vulnerable without direct confrontation. It related closely to my experiences and felt practical for real-life application.",
+      "likely_strategy": "Distraction\nDistraction fits my personality and comfort level best because it allows me to intervene indirectly and creatively. For example, I might spill a drink or create an urgent call to divert attention in a tense situation.",
+      "what_worked": "Character choice reflecting diverse identities, trauma-informed approach, practical feedback after choices, and scenario diversity.",
+      "improvements": "More scenarios featuring diverse cultural backgrounds, clearer instructions for some choices, additional resources for follow-up support, and more nuanced intervention options.",
+      "cultural_relevance": "The training felt inclusive of my non-binary identity and queer community involvement. However, more cultural perspectives beyond LGBTQ+ identities could enhance inclusivity further.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially since they reflected situations that could happen on a university campus. The characters and dialogue felt authentic, particularly the perspective of Sam Rivera, which matched my identity and experiences.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled with care, and trigger warnings were clear and adequate. I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after choices was helpful and instructive, explaining why certain choices worked and what alternatives existed. It taught practical strategies that I can apply in real life.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those involved in creative communities or LGBTQ+ groups. It might be less helpful for students who prefer direct confrontation or have very high comfort with confrontation.\n\n5. CONFIDENCE CHANGE: Rate: 3\nI feel moderately more confident in intervening as a bystander. The training improved my skills in creative and indirect intervention, but I still feel some barriers due to my low-moderate comfort with confrontation.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to creatively intervene in a situation where someone is vulnerable without direct confrontation. It related closely to my experiences and felt practical for real-life application.\n\n7. LIKELY STRATEGY: Answer: Distraction\nDistraction fits my personality and comfort level best because it allows me to intervene indirectly and creatively. For example, I might spill a drink or create an urgent call to divert attention in a tense situation.\n\n8. WHAT WORKED WELL: Answer: Character choice reflecting diverse identities, trauma-informed approach, practical feedback after choices, and scenario diversity.\n\n9. IMPROVEMENTS NEEDED: Answer: More scenarios featuring diverse cultural backgrounds, clearer instructions for some choices, additional resources for follow-up support, and more nuanced intervention options.\n\n10. CULTURAL RELEVANCE: Answer: The training felt inclusive of my non-binary identity and queer community involvement. However, more cultural perspectives beyond LGBTQ+ identities could enhance inclusivity further."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:49:09.308794"
+  },
+  {
+    "persona_id": "Casey Martinez",
+    "persona_background": "Mexican-American - [\"Women's and Gender Studies major\", 'Campus sexual assault prevention intern', 'Facilitator for consent workshops']",
+    "start_time": "2025-11-20T20:49:09.309007",
+    "character_selection": {
+      "character_selected": "Sam Rivera",
+      "reasoning": "Sam Rivera's identity as a non-binary person involved in LGBTQ+ advocacy aligns closely with my own experiences and activism. Choosing this character allows me to engage with diverse identities and creative communities, which is important for an intersectional approach to ending sexual violence.",
+      "timestamp": "2025-11-20T20:49:24.812162"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Directly approach and check if the intoxicated person is okay",
+            "reasoning": "I would directly approach and check if the intoxicated person is okay because I am very comfortable with confrontation and prefer an informed and assertive intervention style. As a feminist activist with extensive trauma awareness, I believe direct engagement is the most effective way to prevent potential harm and ensure the person's safety. It also feels authentic to me to step in immediately rather than waiting or creating distractions.",
+            "feedback_received": "Direct intervention can be effective! You showed courage in speaking up. Key phrases that work: 'Hey, I think your friends are looking for you.' This respected everyone's dignity while creating a pause."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I would help the intoxicated person get home safely by calling a friend or rideshare because ensuring their safe transport is crucial to prevent any further harm. This approach aligns with my assertive intervention style and trauma awareness, as it actively addresses their safety beyond just immediate care. It also feels authentic to me to take responsibility for their well-being until they are truly safe.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 251
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I would listen without judgment and validate my friend's feelings because creating a safe and supportive space is crucial for someone who is upset and uncertain. This approach aligns with my trauma awareness and feminist activism, emphasizing empathy and respect. It feels authentic to me to prioritize their emotional safety before suggesting any next steps or interventions.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Offer to go with them to the counseling center",
+            "reasoning": "I would offer to go with my friend to the counseling center because it shows active support and solidarity, which aligns with my feminist activism and trauma awareness. This approach respects their feelings and timeline while providing them with the comfort of not being alone. It feels authentic and effective to be present with them during such a vulnerable time.",
+            "feedback_received": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor"
+        ],
+        "time_spent_seconds": 219
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the group chat",
+            "reasoning": "I would speak up in the group chat because confronting harmful behavior directly aligns with my feminist activism and assertive intervention style. Addressing the issue openly challenges the normalization of sexual violence and sends a clear message that such behavior is unacceptable. It feels authentic to me to use my voice publicly to support survivors and promote respect.",
+            "feedback_received": "Bold move! Speaking up publicly can shift group norms. Example: 'This doesn't feel right. Would you want people sharing your photos like this?' It might feel awkward but can stop harmful behavior."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 235
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Speak up in the moment about what consent means",
+            "reasoning": "I would speak up in the moment about what consent means because immediate confrontation can challenge harmful attitudes and educate others effectively. This aligns with my feminist activism and assertive intervention style, as it addresses the issue directly and supports a culture of respect. It feels authentic to me to not let such statements go unchallenged, especially when others are uncomfortable.",
+            "feedback_received": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 375
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I would learn about anonymous reporting options first because it allows me to understand how to act safely and effectively without immediately confronting the situation. This approach aligns with my assertive intervention style and trauma awareness, balancing the need to take action with caution. It feels authentic to me to gather information before deciding on the best course of action.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 266
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 1
+    },
+    "feedback": {
+      "realistic": 5,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 5,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 5,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to recognize signs of intoxication and intervene assertively in a social setting. It related closely to my experiences and provided practical approaches that feel authentic to me.",
+      "likely_strategy": "Direct\nI am most likely to use direct intervention because it fits my assertive style and high comfort with confrontation. For example, I would speak up immediately if I overhear harmful comments or see someone at risk.",
+      "what_worked": "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a wide range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear, instructive feedback helped me understand the impact of my choices.",
+      "improvements": "- Include more scenarios featuring intersectional identities.\n- Provide clearer instructions for some choices.\n- Add more nuanced intervention options beyond the main four strategies.\n- Improve accessibility features for students with disabilities.",
+      "cultural_relevance": "The training felt inclusive of my background and identity, especially through the character Sam Rivera. However, more cultural considerations around Latinx experiences could enhance relevance further.",
+      "raw_response": "1. REALISM: Rate: 5\nThe scenarios felt very realistic and relatable, reflecting situations I might actually encounter on campus. The characters and dialogue were authentic, especially with the inclusion of diverse identities like Sam Rivera, which made the experience more immersive.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled with care, and trigger warnings were adequate. I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 5\nThe feedback after my choices was very helpful and instructive. It clearly explained why my choices worked and offered alternative strategies, teaching practical skills I can apply in real life.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those interested in social justice and campus safety. It might be less helpful for students who are uncomfortable with confrontation or sensitive topics.\n\n5. CONFIDENCE CHANGE: Rate: 5\nI feel much more confident intervening as a bystander now. The training improved my skills in direct intervention and recognizing signs of distress. Barriers remain around navigating complex social dynamics, but I feel better prepared.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to recognize signs of intoxication and intervene assertively in a social setting. It related closely to my experiences and provided practical approaches that feel authentic to me.\n\n7. LIKELY STRATEGY: Answer: Direct\nI am most likely to use direct intervention because it fits my assertive style and high comfort with confrontation. For example, I would speak up immediately if I overhear harmful comments or see someone at risk.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a wide range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear, instructive feedback helped me understand the impact of my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more scenarios featuring intersectional identities.\n- Provide clearer instructions for some choices.\n- Add more nuanced intervention options beyond the main four strategies.\n- Improve accessibility features for students with disabilities.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training felt inclusive of my background and identity, especially through the character Sam Rivera. However, more cultural considerations around Latinx experiences could enhance relevance further."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:51:38.741865"
+  },
+  {
+    "persona_id": "Priya Patel",
+    "persona_background": "Indian-American - ['Computer Science major', 'Women in STEM leader', 'Coding for social good']",
+    "start_time": "2025-11-20T20:51:38.741992",
+    "character_selection": {
+      "character_selected": "Alex Chen",
+      "reasoning": "As an engineering student myself, Alex's perspective on navigating cultural differences and leadership roles resonates with me. This choice aligns well with my analytical and systematic approach, allowing me to engage with scenarios that reflect my own experiences and values.",
+      "timestamp": "2025-11-20T20:51:47.476917"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "Given my moderate comfort with confrontation and preference for systematic intervention, involving friends or the party host to help intervene feels like the most practical and effective approach. It allows me to act responsibly without putting myself in a potentially uncomfortable direct confrontation, while ensuring the intoxicated person gets the help they need.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "Helping the intoxicated person get home safely fits my practical and systematic approach, ensuring their safety beyond just the immediate moment. It feels like the most responsible and effective action, aligning with my moderate comfort with confrontation and preference for clear, actionable steps. This way, I can be sure they reach a safe environment where they can recover properly.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 206
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Ask what they need right now and offer support",
+            "reasoning": "Asking what my friend needs right now and offering support aligns with my practical and systematic approach. It allows me to be respectful and empathetic while also providing clear, actionable help. This approach feels authentic to who I am and balances my moderate comfort with confrontation with the need to be supportive.",
+            "feedback_received": "Good! Centering their needs respects their autonomy. Every survivor's needs are different - some want resources, others just need someone to listen."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "B",
+            "choice_text": "Give them the counseling center's contact info and check in later",
+            "reasoning": "Providing the counseling center's contact info and checking in later respects my friend's autonomy while still offering practical support. This approach aligns with my systematic and respectful nature, allowing me to be helpful without being too confrontational or pushy. It feels authentic to my personality and balances care with clear action steps.",
+            "feedback_received": "Good balance of providing information and respecting their timeline. Following up shows you care and are available when they're ready."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor",
+          "know_resources"
+        ],
+        "time_spent_seconds": 203
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "Messaging the person sharing inappropriate content privately aligns with my moderate comfort with confrontation and my preference for respectful, systematic intervention. It allows me to address the issue directly without escalating conflict in the group chat. This approach feels authentic to my personality and is likely to be effective in encouraging better behavior.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 277
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Pull them aside later for a private conversation",
+            "reasoning": "Pulling the person aside later for a private conversation aligns with my respectful and practical nature. It allows me to address the concerning behavior thoughtfully without escalating the situation in front of others. This approach fits my moderate comfort with confrontation and preference for systematic intervention, making it the most effective and authentic choice for me.",
+            "feedback_received": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 204
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "Learning about anonymous reporting options fits my analytical and systematic approach, allowing me to understand the process and consequences before taking any action. This option aligns with my preference for clear, logical steps and helps me make an informed decision without immediate confrontation. It feels like the most practical and responsible first step.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 271
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 2
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 4,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully before intervening and how to involve others effectively. It related closely to real experiences on campus and offered practical, clear steps.",
+      "likely_strategy": "Delegation\nDelegation fits my personality and comfort level best because it allows me to intervene systematically without direct confrontation. For example, I might ask friends or a host to help if I notice someone in a risky situation at a party.",
+      "what_worked": "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a range of relevant situations.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.",
+      "improvements": "- Include more diverse cultural perspectives and identities.\n- Provide clearer instructions at the start of each scenario.\n- Offer more nuanced choices reflecting complex social dynamics.\n- Add additional resources for further learning and support.",
+      "cultural_relevance": "The training was generally inclusive but could better reflect my Indian-American background with more culturally specific scenarios or considerations. Some cultural nuances felt missing, though the overall approach was respectful and open.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially since they reflected situations that could happen on a university campus. The characters and dialogue were mostly authentic, though some moments felt a bit scripted.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled appropriately with clear trigger warnings, and I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after choices was helpful and explained why certain actions worked or what alternatives existed. It taught practical strategies, though sometimes the explanations could be more detailed.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially those in STEM fields who might appreciate the systematic approach. Some students who prefer less structured or more narrative-driven learning might find it less engaging.\n\n5. CONFIDENCE CHANGE: Rate: 4\nI feel more confident intervening as a bystander now, particularly with skills related to delegation and private conversations. Barriers remain around direct confrontation, which I still find challenging.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully before intervening and how to involve others effectively. It related closely to real experiences on campus and offered practical, clear steps.\n\n7. LIKELY STRATEGY: Answer: Delegation\nDelegation fits my personality and comfort level best because it allows me to intervene systematically without direct confrontation. For example, I might ask friends or a host to help if I notice someone in a risky situation at a party.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a range of relevant situations.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more diverse cultural perspectives and identities.\n- Provide clearer instructions at the start of each scenario.\n- Offer more nuanced choices reflecting complex social dynamics.\n- Add additional resources for further learning and support.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training was generally inclusive but could better reflect my Indian-American background with more culturally specific scenarios or considerations. Some cultural nuances felt missing, though the overall approach was respectful and open."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:54:11.634648"
+  },
+  {
+    "persona_id": "Ahmed Hassan",
+    "persona_background": "Egyptian - ['PhD student in Physics', 'Teaching Assistant', 'International student mentor']",
+    "start_time": "2025-11-20T20:54:11.634785",
+    "character_selection": {
+      "character_selected": "Alex Chen",
+      "reasoning": "I choose Alex Chen because as an international student and teaching assistant, I relate to navigating cultural differences and taking on leadership roles. This perspective aligns well with my experiences and will help me engage meaningfully in the training.",
+      "timestamp": "2025-11-20T20:54:22.894456"
+    },
+    "scenarios": [
+      {
+        "scenario_id": "scenario_1",
+        "scenario_name": "Party Observation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "C",
+            "choice_text": "Get friends or the party host to help intervene",
+            "reasoning": "I choose to get friends or the party host to help intervene because I have low to moderate comfort with confrontation and prefer a respectful approach. Involving others can ensure the intoxicated person's safety without escalating the situation, which aligns with my values of creating safe environments and acting responsibly.",
+            "feedback_received": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "A",
+            "choice_text": "Help them get home safely (call friend/rideshare)",
+            "reasoning": "I choose to help them get home safely by calling a friend or rideshare because it ensures their safety beyond just the immediate moment. This approach aligns with my responsible and respectful nature, and it is practical to make sure they reach a safe place. It also reflects my value of creating safe environments and acting with care.",
+            "feedback_received": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention",
+          "warning_signs",
+          "support_survivor"
+        ],
+        "time_spent_seconds": 396
+      },
+      {
+        "scenario_id": "scenario_2",
+        "scenario_name": "Friend Disclosure",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Listen without judgment and validate their feelings",
+            "reasoning": "I choose to listen without judgment and validate their feelings because it is important to create a safe and supportive environment for my friend. This approach aligns with my respectful and educational style, and it helps build trust so they feel comfortable sharing more. It also respects their pace and autonomy, which is important to me as a teaching assistant.",
+            "feedback_received": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+          },
+          {
+            "decision_id": "decision_2",
+            "choice": "B",
+            "choice_text": "Give them the counseling center's contact info and check in later",
+            "reasoning": "I choose to give them the counseling center's contact info and check in later because it respects their autonomy while still offering support. This approach aligns with my respectful and educational style, allowing my friend to seek help at their own pace. Checking in later shows that I care and am available without being pushy.",
+            "feedback_received": "Good balance of providing information and respecting their timeline. Following up shows you care and are available when they're ready."
+          }
+        ],
+        "skills_earned": [
+          "support_survivor",
+          "know_resources"
+        ],
+        "time_spent_seconds": 268
+      },
+      {
+        "scenario_id": "scenario_3",
+        "scenario_name": "Group Chat",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Message the person sharing privately",
+            "reasoning": "I choose to message the person sharing the inappropriate content privately because it allows me to address the issue respectfully without escalating conflict in the group chat. This approach aligns with my low to moderate comfort with confrontation and my preference for a respectful and educational intervention style. It also gives the person a chance to correct their behavior without public embarrassment.",
+            "feedback_received": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 334
+      },
+      {
+        "scenario_id": "scenario_4",
+        "scenario_name": "Consent Conversation",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "B",
+            "choice_text": "Pull them aside later for a private conversation",
+            "reasoning": "I choose to pull them aside later for a private conversation because it aligns with my respectful and educational style while avoiding direct confrontation in front of others. This approach allows me to address the issue thoughtfully and potentially educate them about consent without escalating the situation. It feels authentic to who I am and is likely to be more effective given my comfort level.",
+            "feedback_received": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+          }
+        ],
+        "skills_earned": [
+          "direct_intervention"
+        ],
+        "time_spent_seconds": 247
+      },
+      {
+        "scenario_id": "scenario_5",
+        "scenario_name": "Campus Response",
+        "decisions": [
+          {
+            "decision_id": "decision_1",
+            "choice": "A",
+            "choice_text": "Learn about anonymous reporting options",
+            "reasoning": "I choose to learn about anonymous reporting options because it allows me to gather information and understand the process without immediate confrontation. This approach aligns with my respectful and educational style and my moderate comfort with confrontation. It also helps me act responsibly and make informed decisions about how to proceed.",
+            "feedback_received": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+          }
+        ],
+        "skills_earned": [
+          "know_resources"
+        ],
+        "time_spent_seconds": 386
+      }
+    ],
+    "final_skills": {
+      "warning_signs": 1,
+      "direct_intervention": 3,
+      "distraction": 0,
+      "support_survivor": 3,
+      "know_resources": 2
+    },
+    "feedback": {
+      "realistic": 4,
+      "realistic_explain": "",
+      "felt_safe": 5,
+      "felt_safe_explain": "",
+      "helpful_feedback": 4,
+      "helpful_feedback_explain": "",
+      "would_recommend": 5,
+      "would_recommend_explain": "",
+      "confidence": 3,
+      "confidence_explain": "",
+      "most_valuable_scenario": "Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully and choose an intervention style that fits my comfort level. It related to experiences I might encounter on campus and offered practical, respectful approaches.",
+      "likely_strategy": "Delegation\nI am most likely to use delegation because it fits my personality and comfort level with confrontation. For example, I might ask friends or a host to help intervene in a difficult situation rather than confronting directly.",
+      "what_worked": "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered various intervention areas relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.",
+      "improvements": "- Include more scenarios reflecting diverse cultural backgrounds.\n- Better representation of different gender identities and experiences.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex social dynamics.",
+      "cultural_relevance": "The training was fairly inclusive of diverse cultural perspectives, but it could improve by incorporating more specific cultural considerations relevant to international students like me. Overall, it handled cultural diversity respectfully.",
+      "raw_response": "1. REALISM: Rate: 4\nThe scenarios felt quite realistic and relatable, especially as an international student navigating cultural differences on campus. The characters and dialogue were authentic, though some situations could include more cultural nuances relevant to diverse students.\n\n2. SAFETY & TRAUMA-INFORMED DESIGN: Rate: 5\nI felt emotionally safe and respected throughout the training. The sensitive topics were handled with care, and trigger warnings were adequate. I did not find any content re-traumatizing or insensitive.\n\n3. FEEDBACK QUALITY: Rate: 4\nThe feedback after choices was helpful and instructive, explaining why certain choices worked and offering alternatives. It taught practical strategies that I can apply in real situations.\n\n4. RECOMMENDATION: Rate: 5\nI would definitely recommend this training to other students, especially international and graduate students who might face cultural challenges. Some students who are uncomfortable with confrontation might find it challenging but still beneficial.\n\n5. CONFIDENCE CHANGE: Rate: 3\nI feel moderately more confident in intervening as a bystander. The training improved my understanding of respectful intervention styles, but I still feel some barriers due to my low-moderate comfort with confrontation.\n\n6. MOST VALUABLE SCENARIO: Answer: Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully and choose an intervention style that fits my comfort level. It related to experiences I might encounter on campus and offered practical, respectful approaches.\n\n7. LIKELY STRATEGY: Answer: Delegation\nI am most likely to use delegation because it fits my personality and comfort level with confrontation. For example, I might ask friends or a host to help intervene in a difficult situation rather than confronting directly.\n\n8. WHAT WORKED WELL: Answer:\n- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered various intervention areas relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.\n\n9. IMPROVEMENTS NEEDED: Answer:\n- Include more scenarios reflecting diverse cultural backgrounds.\n- Better representation of different gender identities and experiences.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex social dynamics.\n\n10. CULTURAL RELEVANCE: Answer:\nThe training was fairly inclusive of diverse cultural perspectives, but it could improve by incorporating more specific cultural considerations relevant to international students like me. Overall, it handled cultural diversity respectfully."
+    },
+    "completion_status": "completed",
+    "end_time": "2025-11-20T20:56:36.030499"
+  }
+]

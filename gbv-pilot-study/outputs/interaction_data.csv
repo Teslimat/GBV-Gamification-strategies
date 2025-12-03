@@ -1,0 +1,13 @@
+persona_id,persona_background,character_selected,scenarios_completed,completion_pct,total_time_min,avg_time_per_scenario_min,skill_warning_signs,skill_direct_intervention,skill_distraction,skill_support_survivor,skill_know_resources,realistic_rating,felt_safe_rating,helpful_feedback_rating,would_recommend_rating,confidence_rating
+Alex Chen,"Chinese - ['Engineering student', 'Resident Advisor', 'International student leadership']",Alex Chen,5,100.0,22.6,4.5,1,3,0,3,1,4,5,4,5,4
+Maria Santos,"Brazilian - ['First-year business student', 'Learning campus culture', 'Building confidence']",Alex Chen,5,100.0,21.1,4.2,1,3,0,3,1,4,5,4,5,3
+Yuki Tanaka,"Japanese - ['Social Work graduate program', 'Trauma-informed practice', 'Cross-cultural counseling']",Alex Chen,5,100.0,27.5,5.5,1,3,0,3,1,4,5,5,5,4
+Jordan Williams,"American - ['Junior on soccer team', 'Sport Management major', 'Team captain responsibilities']",Jordan Williams,5,100.0,19.9,4.0,1,3,0,3,1,5,5,5,5,5
+Marcus Johnson,"American - ['Senior defensive player', 'Business major', 'Future in sports management']",Jordan Williams,5,100.0,21.7,4.3,1,3,0,3,1,4,4,3,4,4
+Kyle Anderson,"American - ['Freshman athlete', 'Undecided major', 'Learning campus dynamics']",Jordan Williams,5,100.0,27.0,5.4,1,3,0,3,1,4,5,4,5,3
+David Kim,"Korean-American - ['Sophomore on swim team', 'Engineering major', 'Team diversity advocate']",Alex Chen,5,100.0,24.4,4.9,1,3,0,3,1,4,5,4,5,4
+Sam Rivera,"American - ['Art student specializing in social justice themes', 'LGBTQ+ student group leadership', 'Peer counseling volunteer']",Sam Rivera,5,100.0,26.6,5.3,1,3,0,3,1,5,5,5,5,5
+Taylor Kim,"American - ['Fine Arts major', 'Photography focus', 'Queer student alliance member']",Sam Rivera,5,100.0,25.3,5.1,1,2,1,3,1,4,5,4,5,3
+Casey Martinez,"Mexican-American - [""Women's and Gender Studies major"", 'Campus sexual assault prevention intern', 'Facilitator for consent workshops']",Sam Rivera,5,100.0,22.4,4.5,1,3,0,3,1,5,5,5,5,5
+Priya Patel,"Indian-American - ['Computer Science major', 'Women in STEM leader', 'Coding for social good']",Alex Chen,5,100.0,19.4,3.9,1,3,0,3,2,4,5,4,5,4
+Ahmed Hassan,"Egyptian - ['PhD student in Physics', 'Teaching Assistant', 'International student mentor']",Alex Chen,5,100.0,27.2,5.4,1,3,0,3,2,4,5,4,5,3

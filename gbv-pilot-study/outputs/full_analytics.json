@@ -1,0 +1,277 @@
+{
+  "completion_metrics": {
+    "total_participants": 12,
+    "completed": 12,
+    "completion_rate_pct": 100.0,
+    "avg_scenarios_completed": 5.0,
+    "avg_total_time_min": 23.758333333333336,
+    "avg_time_per_scenario_min": 4.749999999999999,
+    "min_time": 19.4,
+    "max_time": 27.5
+  },
+  "character_analysis": {
+    "counts": {
+      "Alex Chen": 6,
+      "Jordan Williams": 3,
+      "Sam Rivera": 3
+    },
+    "percentages": {
+      "Alex Chen": 50.0,
+      "Jordan Williams": 25.0,
+      "Sam Rivera": 25.0
+    }
+  },
+  "skill_analysis": {
+    "warning_signs": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std": 0.0,
+      "min": "1",
+      "max": "1"
+    },
+    "direct_intervention": {
+      "mean": 2.9166666666666665,
+      "median": 3.0,
+      "std": 0.28867513459481287,
+      "min": "2",
+      "max": "3"
+    },
+    "distraction": {
+      "mean": 0.08333333333333333,
+      "median": 0.0,
+      "std": 0.28867513459481287,
+      "min": "0",
+      "max": "1"
+    },
+    "support_survivor": {
+      "mean": 3.0,
+      "median": 3.0,
+      "std": 0.0,
+      "min": "3",
+      "max": "3"
+    },
+    "know_resources": {
+      "mean": 1.1666666666666667,
+      "median": 1.0,
+      "std": 0.38924947208076144,
+      "min": "1",
+      "max": "2"
+    }
+  },
+  "decision_patterns": {
+    "scenario_1": {
+      "decision_1": {
+        "C": 7,
+        "A": 4,
+        "B": 1
+      },
+      "decision_2": {
+        "A": 10,
+        "B": 2
+      }
+    },
+    "scenario_2": {
+      "decision_1": {
+        "A": 10,
+        "B": 2
+      },
+      "decision_2": {
+        "A": 7,
+        "C": 3,
+        "B": 2
+      }
+    },
+    "scenario_3": {
+      "decision_1": {
+        "B": 7,
+        "A": 5
+      }
+    },
+    "scenario_4": {
+      "decision_1": {
+        "B": 6,
+        "A": 6
+      }
+    },
+    "scenario_5": {
+      "decision_1": {
+        "A": 9,
+        "B": 2,
+        "C": 1
+      }
+    }
+  },
+  "ux_analysis": {
+    "realistic": {
+      "mean": 4.25,
+      "median": 4.0,
+      "pct_4_or_5": 100.0
+    },
+    "felt_safe": {
+      "mean": 4.916666666666667,
+      "median": 5.0,
+      "pct_4_or_5": 100.0
+    },
+    "helpful_feedback": {
+      "mean": 4.25,
+      "median": 4.0,
+      "pct_4_or_5": 91.66666666666666
+    },
+    "would_recommend": {
+      "mean": 4.916666666666667,
+      "median": 5.0,
+      "pct_4_or_5": 100.0
+    },
+    "confidence": {
+      "mean": 3.9166666666666665,
+      "median": 4.0,
+      "pct_4_or_5": 66.66666666666666
+    }
+  },
+  "strategy_analysis": {
+    "counts": {
+      "Direct": 10,
+      "Delegation": 2
+    },
+    "percentages": {
+      "Direct": 83.33333333333334,
+      "Delegation": 16.666666666666664
+    }
+  },
+  "cultural_analysis": {
+    "total_responses": 12,
+    "positive_sentiment": 12,
+    "concerns_raised": 11,
+    "sample_feedback": [
+      "The training was generally inclusive of my background as an international student, showing awareness of cultural differences. However, deeper cultural considerations could enhance relevance and effectiveness.",
+      "The training felt somewhat inclusive of my background as an international student, but more cultural considerations could be added. For example, addressing language barriers or cultural differences in communication would be helpful.",
+      "The training was generally inclusive of diverse cultural perspectives, but more explicit representation of different identities would enhance its relevance. Some cultural nuances could be better integrated to reflect varied communication styles and values.",
+      "The training felt mostly inclusive of my background as an American student athlete, but it could improve by including more cultural perspectives and identities to better reflect campus diversity.",
+      "The training was somewhat inclusive but could do better representing diverse cultural perspectives, especially for international students or those outside typical campus groups. More cultural context would improve relevance."
+    ]
+  },
+  "correlation_analysis": {
+    "correlation_matrix": {
+      "realistic_rating": {
+        "realistic_rating": 1.0,
+        "felt_safe_rating": 0.17407765595569757,
+        "helpful_feedback_rating": 0.727606875108999,
+        "would_recommend_rating": 0.17407765595569757,
+        "confidence_rating": 0.8238415256818211
+      },
+      "felt_safe_rating": {
+        "realistic_rating": 0.17407765595569757,
+        "felt_safe_rating": 1.0,
+        "helpful_feedback_rating": 0.6333004963811236,
+        "would_recommend_rating": 1.0,
+        "confidence_rating": -0.033095169616074796
+      },
+      "helpful_feedback_rating": {
+        "realistic_rating": 0.727606875108999,
+        "felt_safe_rating": 0.6333004963811236,
+        "helpful_feedback_rating": 1.0,
+        "would_recommend_rating": 0.6333004963811233,
+        "confidence_rating": 0.59943275808638
+      },
+      "would_recommend_rating": {
+        "realistic_rating": 0.17407765595569757,
+        "felt_safe_rating": 1.0,
+        "helpful_feedback_rating": 0.6333004963811233,
+        "would_recommend_rating": 1.0,
+        "confidence_rating": -0.033095169616074796
+      },
+      "confidence_rating": {
+        "realistic_rating": 0.8238415256818211,
+        "felt_safe_rating": -0.033095169616074796,
+        "helpful_feedback_rating": 0.59943275808638,
+        "would_recommend_rating": -0.033095169616074796,
+        "confidence_rating": 1.0
+      }
+    },
+    "top_correlations": [
+      {
+        "metric1": "felt_safe",
+        "metric2": "would_recommend",
+        "correlation": 1.0
+      },
+      {
+        "metric1": "realistic",
+        "metric2": "confidence",
+        "correlation": 0.8238415256818211
+      },
+      {
+        "metric1": "realistic",
+        "metric2": "helpful_feedback",
+        "correlation": 0.727606875108999
+      },
+      {
+        "metric1": "felt_safe",
+        "metric2": "helpful_feedback",
+        "correlation": 0.6333004963811236
+      },
+      {
+        "metric1": "helpful_feedback",
+        "metric2": "would_recommend",
+        "correlation": 0.6333004963811233
+      }
+    ]
+  },
+  "qualitative_themes": {
+    "what_worked": [
+      "Character choice allowing perspective-taking; diverse scenarios covering different contexts; clear, practical feedback; trauma-informed design ensuring emotional safety.",
+      "- The gamification elements like character choice made the training engaging.\n- Scenario diversity covered different situations relevant to campus life.\n- The trauma-informed approach made me feel safe.\n- Clear feedback helped me understand my choices.",
+      "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a broad range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear, constructive feedback helped reinforce learning.",
+      "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered different social contexts relevant to campus life.\n- The trauma-informed approach made me feel safe while learning.\n- Clear, practical feedback helped me understand the impact of my choices.",
+      "- Character choice helped me relate better.\n- Scenario diversity covered relevant campus situations.\n- Trauma-informed approach made it feel safe.\n- Feedback after choices helped me understand consequences.",
+      "- The gamification elements like character choice made it engaging.\n- Scenario diversity covered different situations well.\n- The trauma-informed approach made me feel safe.\n- Clear feedback helped me understand my choices.",
+      "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a broad range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.",
+      "Character choice reflecting diverse identities, realistic and varied scenarios, clear and constructive feedback, trauma-informed approach ensuring emotional safety.",
+      "Character choice reflecting diverse identities, trauma-informed approach, practical feedback after choices, and scenario diversity.",
+      "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a wide range of situations relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear, instructive feedback helped me understand the impact of my choices.",
+      "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered a range of relevant situations.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices.",
+      "- The gamification elements like character choice and skill points made the training engaging.\n- Scenario diversity covered various intervention areas relevant to campus life.\n- The trauma-informed approach ensured emotional safety.\n- Clear feedback helped me understand the impact of my choices."
+    ],
+    "improvements": [
+      "Include more cultural nuances specific to international students; add scenarios involving more diverse identities; provide clearer instructions on some choices; offer additional resources for follow-up support.",
+      "- Include more diverse cultural perspectives and identities.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex situations.\n- Offer additional resources for further learning.",
+      "- Include more scenarios representing diverse cultural backgrounds.\n- Provide clearer instructions for some choices.\n- Add more nuanced options reflecting different intervention styles.\n- Offer additional resources for follow-up support.",
+      "- Include more diverse scenarios representing different cultural backgrounds.\n- Better representation of various gender identities and experiences.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex social dynamics.",
+      "- More diverse scenarios reflecting different cultural backgrounds.\n- Clearer instructions on some choices.\n- More nuanced options beyond just direct or indirect.\n- Additional resources for follow-up support.",
+      "- More diverse scenarios including different cultural backgrounds.\n- Better representation of various identities.\n- Clearer instructions at times.\n- Additional resources for follow-up support.",
+      "- Include more scenarios representing diverse cultural backgrounds.\n- Provide clearer instructions for some choices.\n- Add more nuanced intervention options.\n- Offer additional resources for follow-up support.",
+      "Include more scenarios involving intersectional identities, provide clearer instructions for some choices, add resources for ongoing support, enhance accessibility features.",
+      "More scenarios featuring diverse cultural backgrounds, clearer instructions for some choices, additional resources for follow-up support, and more nuanced intervention options.",
+      "- Include more scenarios featuring intersectional identities.\n- Provide clearer instructions for some choices.\n- Add more nuanced intervention options beyond the main four strategies.\n- Improve accessibility features for students with disabilities.",
+      "- Include more diverse cultural perspectives and identities.\n- Provide clearer instructions at the start of each scenario.\n- Offer more nuanced choices reflecting complex social dynamics.\n- Add additional resources for further learning and support.",
+      "- Include more scenarios reflecting diverse cultural backgrounds.\n- Better representation of different gender identities and experiences.\n- Provide clearer instructions for some scenarios.\n- Add more nuanced choices to reflect complex social dynamics."
+    ],
+    "most_valuable_scenarios": [
+      "Party Observation\nThis scenario was most valuable because it taught me how to assess situations carefully and choose a thoughtful intervention style. It related closely to my experiences as a resident advisor navigating social events and cultural differences. The approach was practical and respectful.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to notice signs of intoxication and intervene safely without direct confrontation. It related to my experiences at social events and gave me practical, indirect ways to help.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to assess a complex situation involving intoxication and potential risk. It related closely to real campus experiences and emphasized a trauma-informed, collaborative approach that felt practical and respectful.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to recognize concerning behavior in social settings and intervene directly but kindly. It related closely to my experiences as a team captain at parties and gave me practical approaches I can use.",
+      "Party Observation\nThis scenario was most valuable because it related closely to my experiences as a student athlete in social settings. It taught me practical ways to intervene directly and quickly, which fits my personality and comfort level.",
+      "Party Observation\nThis scenario was most valuable because it showed me how to safely intervene when someone is intoxicated and potentially at risk. It related closely to my experiences and gave practical steps I could take without feeling overwhelmed.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully and choose a safe, effective intervention strategy. It related closely to my experiences on campus and emphasized teamwork and practical action.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to recognize signs of intoxication and intervene directly and empathetically. It related closely to my experiences and provided practical approaches that feel authentic to me.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to creatively intervene in a situation where someone is vulnerable without direct confrontation. It related closely to my experiences and felt practical for real-life application.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to recognize signs of intoxication and intervene assertively in a social setting. It related closely to my experiences and provided practical approaches that feel authentic to me.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully before intervening and how to involve others effectively. It related closely to real experiences on campus and offered practical, clear steps.",
+      "Party Observation\nThis scenario was most valuable because it taught me how to assess a situation carefully and choose an intervention style that fits my comfort level. It related to experiences I might encounter on campus and offered practical, respectful approaches."
+    ],
+    "likely_strategies": [
+      "Delegation\nDelegation fits my personality and comfort level because I prefer involving others to help intervene rather than confronting directly. For example, at a party, I might ask friends or the host to assist if I notice something concerning.",
+      "Delegation\nDelegation fits my personality and comfort level because I prefer to involve others rather than confront situations directly. For example, at a party, I might ask friends or the host to help if I see something concerning.",
+      "Delegation\nDelegation fits my personality and comfort level as it allows me to involve others in intervention while maintaining a supportive role. For example, I might ask friends or a host to help if I notice someone at risk at a party.",
+      "Direct\nDirect intervention fits my personality and comfort level best because I am confident and want to set a positive example for my teammates. For example, I might directly check on someone who appears intoxicated at a party to ensure their safety.",
+      "Direct\nDirect intervention fits my personality perfectly since I\u2019m comfortable confronting issues head-on. For example, I\u2019d speak up immediately if I saw something wrong at a party or in a group chat.",
+      "Delegation\nDelegation fits my personality and comfort level best because I prefer to get others involved rather than confront directly. For example, at a party, I might ask friends or the host to help if I notice something concerning.",
+      "Delegation\nDelegation fits my personality and comfort level as it allows me to involve others and plan interventions strategically. For example, at a party, I might ask friends or the host to help intervene rather than confronting someone alone.",
+      "Direct\nDirect intervention fits my personality and comfort level best. I am likely to speak up immediately when I see concerning behavior, such as addressing inappropriate comments in a group setting.",
+      "Distraction\nDistraction fits my personality and comfort level best because it allows me to intervene indirectly and creatively. For example, I might spill a drink or create an urgent call to divert attention in a tense situation.",
+      "Direct\nI am most likely to use direct intervention because it fits my assertive style and high comfort with confrontation. For example, I would speak up immediately if I overhear harmful comments or see someone at risk.",
+      "Delegation\nDelegation fits my personality and comfort level best because it allows me to intervene systematically without direct confrontation. For example, I might ask friends or a host to help if I notice someone in a risky situation at a party.",
+      "Delegation\nI am most likely to use delegation because it fits my personality and comfort level with confrontation. For example, I might ask friends or a host to help intervene in a difficult situation rather than confronting directly."
+    ]
+  }
+}

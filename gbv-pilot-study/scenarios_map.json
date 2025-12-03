@@ -1,0 +1,225 @@
+{
+  "scenarios": [
+    {
+      "id": "scenario_1",
+      "name": "Party Observation",
+      "context": "You're at a house party with about 30-40 people. Music is loud, people are drinking and dancing. You notice someone who appears very intoxicated - unsteady on their feet, slurred speech - being led upstairs by someone they seem to have just met. Your friends are nearby in the living room.",
+      "decision_points": [
+        {
+          "id": "decision_1",
+          "prompt": "What do you do?",
+          "options": {
+            "A": {
+              "text": "Directly approach and check if the intoxicated person is okay",
+              "skills": ["direct_intervention", "warning_signs"],
+              "feedback": "Direct intervention can be effective! You showed courage in speaking up. Key phrases that work: 'Hey, I think your friends are looking for you.' This respected everyone's dignity while creating a pause."
+            },
+            "B": {
+              "text": "Create a distraction (spill drink, fake urgent call)",
+              "skills": ["distraction", "warning_signs"],
+              "feedback": "Distraction is great when you're uncomfortable with direct confrontation. You created a physical barrier and gave time for reconsideration. Low-risk approach that still interrupts the situation."
+            },
+            "C": {
+              "text": "Get friends or the party host to help intervene",
+              "skills": ["direct_intervention", "warning_signs"],
+              "feedback": "Getting help is smart! Multiple people are more effective and less threatening. Safety in numbers gives you more options and social proof makes concerns harder to dismiss."
+            },
+            "D": {
+              "text": "Observe for a moment to assess the situation better",
+              "skills": ["warning_signs"],
+              "feedback": "Observation can be useful but should be BRIEF. The window for easy intervention closes quickly. Once they're in a private space, intervention becomes more difficult. Trust your instincts and act quickly."
+            }
+          }
+        },
+        {
+          "id": "decision_2",
+          "prompt": "The person is now safe with you and your friends. They're sitting down, drinking water. What's your next step?",
+          "options": {
+            "A": {
+              "text": "Help them get home safely (call friend/rideshare)",
+              "skills": ["support_survivor"],
+              "feedback": "Excellent follow-through! Intervention doesn't stop at the first action. Following through ensures the person is actually safe, not just away from immediate danger."
+            },
+            "B": {
+              "text": "Stay with them until they feel better",
+              "skills": ["support_survivor"],
+              "feedback": "Good choice! Staying with someone vulnerable shows care and ensures they're not left alone. This is part of complete bystander intervention."
+            },
+            "C": {
+              "text": "Find their friends for them",
+              "skills": ["support_survivor"],
+              "feedback": "Connecting them with their support network is helpful. Make sure their friends are trustworthy and sober enough to help."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "scenario_2",
+      "name": "Friend Disclosure",
+      "context": "A close friend pulls you aside at lunch and shares that something happened at a party last weekend. They seem upset and uncertain about what to do. They haven't told anyone else yet.",
+      "decision_points": [
+        {
+          "id": "decision_1",
+          "prompt": "How do you respond?",
+          "options": {
+            "A": {
+              "text": "Listen without judgment and validate their feelings",
+              "skills": ["support_survivor"],
+              "feedback": "Excellent response. Listening and validating is the most important first step. Let them tell their story at their own pace without interrupting or asking for details."
+            },
+            "B": {
+              "text": "Ask what they need right now and offer support",
+              "skills": ["support_survivor"],
+              "feedback": "Good! Centering their needs respects their autonomy. Every survivor's needs are different - some want resources, others just need someone to listen."
+            },
+            "C": {
+              "text": "Suggest reporting to campus authorities",
+              "skills": ["know_resources"],
+              "feedback": "While reporting is an option, jumping straight to this can feel overwhelming. It's better to listen first, then ask what THEY want to do. Support their choice."
+            },
+            "D": {
+              "text": "Share information about counseling and support services",
+              "skills": ["know_resources", "support_survivor"],
+              "feedback": "Providing resource information is helpful! Make sure to present it as options, not requirements. They decide if and when they're ready."
+            }
+          }
+        },
+        {
+          "id": "decision_2",
+          "prompt": "Your friend says they're not ready to report but might want to talk to a counselor. What do you do?",
+          "options": {
+            "A": {
+              "text": "Offer to go with them to the counseling center",
+              "skills": ["support_survivor"],
+              "feedback": "Perfect! Offering to accompany them shows support without pressure. Sometimes having someone there makes it easier to take that first step."
+            },
+            "B": {
+              "text": "Give them the counseling center's contact info and check in later",
+              "skills": ["know_resources", "support_survivor"],
+              "feedback": "Good balance of providing information and respecting their timeline. Following up shows you care and are available when they're ready."
+            },
+            "C": {
+              "text": "Respect their timeline and let them know you're here whenever they need",
+              "skills": ["support_survivor"],
+              "feedback": "Excellent! Respecting their pace is crucial. Healing isn't linear, and they need to feel in control of their own process."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "scenario_3",
+      "name": "Group Chat",
+      "context": "Your friend group chat has someone sharing inappropriate photos and making sexual comments about another student without their knowledge. Multiple people are laughing and adding to it.",
+      "decision_points": [
+        {
+          "id": "decision_1",
+          "prompt": "What do you do?",
+          "options": {
+            "A": {
+              "text": "Speak up in the group chat",
+              "skills": ["direct_intervention"],
+              "feedback": "Bold move! Speaking up publicly can shift group norms. Example: 'This doesn't feel right. Would you want people sharing your photos like this?' It might feel awkward but can stop harmful behavior."
+            },
+            "B": {
+              "text": "Message the person sharing privately",
+              "skills": ["direct_intervention"],
+              "feedback": "Good strategy! Private messages can be effective without public confrontation. You can explain why the behavior is harmful without embarrassing them in front of others."
+            },
+            "C": {
+              "text": "Leave the chat and explain why",
+              "skills": ["direct_intervention"],
+              "feedback": "Setting a boundary! Leaving and stating your reason sends a message about what behavior you accept. It may prompt others to reconsider too."
+            },
+            "D": {
+              "text": "Report to platform admins or authorities",
+              "skills": ["know_resources", "direct_intervention"],
+              "feedback": "Reporting is appropriate when someone's privacy or safety is violated. Many platforms have policies against sharing intimate images without consent."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "scenario_4",
+      "name": "Consent Conversation",
+      "context": "At a small gathering, you overhear someone bragging about 'wearing down' their date until they agreed to hook up. Others in the group are laughing uncomfortably.",
+      "decision_points": [
+        {
+          "id": "decision_1",
+          "prompt": "What do you do?",
+          "options": {
+            "A": {
+              "text": "Speak up in the moment about what consent means",
+              "skills": ["direct_intervention"],
+              "feedback": "Brave! Educating in the moment can be powerful. Example: 'That's not consent - pressuring someone isn't the same as them freely agreeing.' You might get pushback but you plant seeds."
+            },
+            "B": {
+              "text": "Pull them aside later for a private conversation",
+              "skills": ["direct_intervention"],
+              "feedback": "Strategic approach! Private conversations allow for deeper discussion without defensiveness. You can explain why coercion isn't consent without public shame."
+            },
+            "C": {
+              "text": "Change the subject and check in with uncomfortable people",
+              "skills": ["support_survivor"],
+              "feedback": "Good awareness! Others may be triggered or uncomfortable. Checking in shows care, though the harmful behavior still needs addressing."
+            },
+            "D": {
+              "text": "Report the concerning statement to campus authorities",
+              "skills": ["know_resources"],
+              "feedback": "If the behavior described sounds like assault, reporting is appropriate. Many campuses have anonymous reporting options for concerning behavior."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "scenario_5",
+      "name": "Campus Response",
+      "context": "You witnessed something concerning last night and want to do something about it, but you're unsure what options you have and what the consequences might be.",
+      "decision_points": [
+        {
+          "id": "decision_1",
+          "prompt": "What do you do?",
+          "options": {
+            "A": {
+              "text": "Learn about anonymous reporting options",
+              "skills": ["know_resources"],
+              "feedback": "Smart! Many campuses have anonymous reporting hotlines. This lets you report concerning behavior without revealing your identity, and authorities can monitor patterns."
+            },
+            "B": {
+              "text": "Talk to a confidential resource (counselor, chaplain)",
+              "skills": ["know_resources"],
+              "feedback": "Excellent! Confidential resources can help you process what you saw and explore options WITHOUT triggering mandatory reporting. They can guide you through choices."
+            },
+            "C": {
+              "text": "Research Title IX process",
+              "skills": ["know_resources"],
+              "feedback": "Good! Understanding the formal process helps you make informed decisions. Title IX offices can explain options without requiring you to file a formal report immediately."
+            },
+            "D": {
+              "text": "Talk to the person you're concerned about first",
+              "skills": ["support_survivor"],
+              "feedback": "Thoughtful! If you witnessed something happen to someone, checking in with them respects their autonomy. Ask what THEY want, don't assume. Support their choices."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "character_mapping": {
+    "Alex Chen": {
+      "likely_choices": ["C", "B"],
+      "reasoning_style": "cautious, seeks collaboration, culturally aware"
+    },
+    "Jordan Williams": {
+      "likely_choices": ["A", "C"],
+      "reasoning_style": "confident, direct, team-oriented"
+    },
+    "Sam Rivera": {
+      "likely_choices": ["A", "D"],
+      "reasoning_style": "empathetic, informed, advocacy-focused"
+    }
+  }
+}
